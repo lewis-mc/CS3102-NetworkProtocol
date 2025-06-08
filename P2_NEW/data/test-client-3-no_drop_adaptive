@@ -1,0 +1,1552 @@
+Script started on 2024-03-26 19:49:35+00:00 [TERM="xterm-256color" TTY="/dev/pts/11" COLUMNS="99" LINES="12"]
+]0;lmc35@pc7-001-l -> for cs_configure_shell_script in /etc/cs-configure-shell.d/*.sh]0;lmc35@pc7-001-l -> [ -r "$cs_configure_shell_script" ]]0;lmc35@pc7-001-l -> [ "${-#*cs_configure_shell_script}" != "$-" ]]0;lmc35@pc7-001-l -> . "$cs_configure_shell_script" > /dev/null]0;lmc35@pc7-001-l -> for cs_configure_shell_script in /etc/cs-configure-shell.d/*.sh]0;lmc35@pc7-001-l -> [ -r "$cs_configure_shell_script" ]]0;lmc35@pc7-001-l -> [ "${-#*cs_configure_shell_script}" != "$-" ]]0;lmc35@pc7-001-l -> . "$cs_configure_shell_script" > /dev/null]0;lmc35@pc7-001-l -> unset cs_configure_shell_script]0;lmc35@pc7-001-l -> unset i]0;lmc35@pc7-001-l -> unset -f pathmunge]0;lmc35@pc7-001-l -> [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]]0;lmc35@pc7-001-l -> export PATH]0;lmc35@pc7-001-l -> [ -d ~/.bashrc.d ]]0;lmc35@pc7-001-l -> unset rc]0;lmc35@pc7-001-l:/cs/home/lmc35/Documents/CS3102/P2_NEW/api[?2004h[1mlmc35@pc7-001-l:.../Documents/CS3102/P2_NEW/api $[0m ./test-client-3 pc7-003-l
+[?2004l]0;lmc35@pc7-001-l -> ./test-client-3 pc7-003-ltest-client-3
+srtp_open(): 138.251.29.13:23220
+srtp_rx(): 1/500 pkts, 1280 bytes (good), v1=1 (good), v2=1 (good).
+RTO: -57
+srtp_tx(): 1/500 pkts, 1280/1280 bytes.
+srtp_rx(): 2/500 pkts, 1280 bytes (good), v1=2 (good), v2=2 (good).
+RTO: -29
+srtp_tx(): 2/500 pkts, 1280/1280 bytes.
+srtp_rx(): 3/500 pkts, 1280 bytes (good), v1=3 (good), v2=3 (good).
+RTO: -35
+srtp_tx(): 3/500 pkts, 1280/1280 bytes.
+srtp_rx(): 4/500 pkts, 1280 bytes (good), v1=4 (good), v2=4 (good).
+RTO: -17
+srtp_tx(): 4/500 pkts, 1280/1280 bytes.
+srtp_rx(): 5/500 pkts, 1280 bytes (good), v1=5 (good), v2=5 (good).
+RTO: -6
+srtp_tx(): 5/500 pkts, 1280/1280 bytes.
+srtp_rx(): 6/500 pkts, 1280 bytes (good), v1=6 (good), v2=6 (good).
+RTO: 2666
+srtp_tx(): 6/500 pkts, 1280/1280 bytes.
+srtp_rx(): 7/500 pkts, 1280 bytes (good), v1=7 (good), v2=7 (good).
+RTO: 2321
+srtp_tx(): 7/500 pkts, 1280/1280 bytes.
+srtp_rx(): 8/500 pkts, 1280 bytes (good), v1=8 (good), v2=8 (good).
+RTO: 2017
+srtp_tx(): 8/500 pkts, 1280/1280 bytes.
+srtp_rx(): 9/500 pkts, 1280 bytes (good), v1=9 (good), v2=9 (good).
+RTO: 1729
+srtp_tx(): 9/500 pkts, 1280/1280 bytes.
+srtp_rx(): 10/500 pkts, 1280 bytes (good), v1=10 (good), v2=10 (good).
+RTO: 1505
+srtp_tx(): 10/500 pkts, 1280/1280 bytes.
+srtp_rx(): 11/500 pkts, 1280 bytes (good), v1=11 (good), v2=11 (good).
+RTO: 1303
+srtp_tx(): 11/500 pkts, 1280/1280 bytes.
+srtp_rx(): 12/500 pkts, 1280 bytes (good), v1=12 (good), v2=12 (good).
+RTO: 1147
+srtp_tx(): 12/500 pkts, 1280/1280 bytes.
+srtp_rx(): 13/500 pkts, 1280 bytes (good), v1=13 (good), v2=13 (good).
+RTO: 992
+srtp_tx(): 13/500 pkts, 1280/1280 bytes.
+srtp_rx(): 14/500 pkts, 1280 bytes (good), v1=14 (good), v2=14 (good).
+RTO: 879
+srtp_tx(): 14/500 pkts, 1280/1280 bytes.
+srtp_rx(): 15/500 pkts, 1280 bytes (good), v1=15 (good), v2=15 (good).
+RTO: 2097
+srtp_tx(): 15/500 pkts, 1280/1280 bytes.
+srtp_rx(): 16/500 pkts, 1280 bytes (good), v1=16 (good), v2=16 (good).
+RTO: 1864
+srtp_tx(): 16/500 pkts, 1280/1280 bytes.
+srtp_rx(): 17/500 pkts, 1280 bytes (good), v1=17 (good), v2=17 (good).
+RTO: 1635
+srtp_tx(): 17/500 pkts, 1280/1280 bytes.
+srtp_rx(): 18/500 pkts, 1280 bytes (good), v1=18 (good), v2=18 (good).
+RTO: 1422
+srtp_tx(): 18/500 pkts, 1280/1280 bytes.
+srtp_rx(): 19/500 pkts, 1280 bytes (good), v1=19 (good), v2=19 (good).
+RTO: 1236
+srtp_tx(): 19/500 pkts, 1280/1280 bytes.
+srtp_rx(): 20/500 pkts, 1280 bytes (good), v1=20 (good), v2=20 (good).
+RTO: 1099
+srtp_tx(): 20/500 pkts, 1280/1280 bytes.
+srtp_rx(): 21/500 pkts, 1280 bytes (good), v1=21 (good), v2=21 (good).
+RTO: 962
+srtp_tx(): 21/500 pkts, 1280/1280 bytes.
+srtp_rx(): 22/500 pkts, 1280 bytes (good), v1=22 (good), v2=22 (good).
+RTO: 847
+srtp_tx(): 22/500 pkts, 1280/1280 bytes.
+srtp_rx(): 23/500 pkts, 1280 bytes (good), v1=23 (good), v2=23 (good).
+RTO: 737
+srtp_tx(): 23/500 pkts, 1280/1280 bytes.
+srtp_rx(): 24/500 pkts, 1280 bytes (good), v1=24 (good), v2=24 (good).
+RTO: 645
+srtp_tx(): 24/500 pkts, 1280/1280 bytes.
+srtp_rx(): 25/500 pkts, 1280 bytes (good), v1=25 (good), v2=25 (good).
+RTO: 543
+srtp_tx(): 25/500 pkts, 1280/1280 bytes.
+srtp_rx(): 26/500 pkts, 1280 bytes (good), v1=26 (good), v2=26 (good).
+RTO: 751
+srtp_tx(): 26/500 pkts, 1280/1280 bytes.
+srtp_rx(): 27/500 pkts, 1280 bytes (good), v1=27 (good), v2=27 (good).
+RTO: 655
+srtp_tx(): 27/500 pkts, 1280/1280 bytes.
+srtp_rx(): 28/500 pkts, 1280 bytes (good), v1=28 (good), v2=28 (good).
+RTO: 572
+srtp_tx(): 28/500 pkts, 1280/1280 bytes.
+srtp_rx(): 29/500 pkts, 1280 bytes (good), v1=29 (good), v2=29 (good).
+RTO: 495
+srtp_tx(): 29/500 pkts, 1280/1280 bytes.
+srtp_rx(): 30/500 pkts, 1280 bytes (good), v1=30 (good), v2=30 (good).
+RTO: 440
+srtp_tx(): 30/500 pkts, 1280/1280 bytes.
+srtp_rx(): 31/500 pkts, 1280 bytes (good), v1=31 (good), v2=31 (good).
+RTO: 375
+srtp_tx(): 31/500 pkts, 1280/1280 bytes.
+srtp_rx(): 32/500 pkts, 1280 bytes (good), v1=32 (good), v2=32 (good).
+RTO: 334
+srtp_tx(): 32/500 pkts, 1280/1280 bytes.
+srtp_rx(): 33/500 pkts, 1280 bytes (good), v1=33 (good), v2=33 (good).
+RTO: 300
+srtp_tx(): 33/500 pkts, 1280/1280 bytes.
+srtp_rx(): 34/500 pkts, 1280 bytes (good), v1=34 (good), v2=34 (good).
+RTO: 266
+srtp_tx(): 34/500 pkts, 1280/1280 bytes.
+srtp_rx(): 35/500 pkts, 1280 bytes (good), v1=35 (good), v2=35 (good).
+RTO: 216
+srtp_tx(): 35/500 pkts, 1280/1280 bytes.
+srtp_rx(): 36/500 pkts, 1280 bytes (good), v1=36 (good), v2=36 (good).
+RTO: 186
+srtp_tx(): 36/500 pkts, 1280/1280 bytes.
+srtp_rx(): 37/500 pkts, 1280 bytes (good), v1=37 (good), v2=37 (good).
+RTO: 137
+srtp_tx(): 37/500 pkts, 1280/1280 bytes.
+srtp_rx(): 38/500 pkts, 1280 bytes (good), v1=38 (good), v2=38 (good).
+RTO: 104
+srtp_tx(): 38/500 pkts, 1280/1280 bytes.
+srtp_rx(): 39/500 pkts, 1280 bytes (good), v1=39 (good), v2=39 (good).
+RTO: 89
+srtp_tx(): 39/500 pkts, 1280/1280 bytes.
+srtp_rx(): 40/500 pkts, 1280 bytes (good), v1=40 (good), v2=40 (good).
+RTO: 63
+srtp_tx(): 40/500 pkts, 1280/1280 bytes.
+srtp_rx(): 41/500 pkts, 1280 bytes (good), v1=41 (good), v2=41 (good).
+RTO: 56
+srtp_tx(): 41/500 pkts, 1280/1280 bytes.
+srtp_rx(): 42/500 pkts, 1280 bytes (good), v1=42 (good), v2=42 (good).
+RTO: 56
+srtp_tx(): 42/500 pkts, 1280/1280 bytes.
+srtp_rx(): 43/500 pkts, 1280 bytes (good), v1=43 (good), v2=43 (good).
+RTO: 48
+srtp_tx(): 43/500 pkts, 1280/1280 bytes.
+srtp_rx(): 44/500 pkts, 1280 bytes (good), v1=44 (good), v2=44 (good).
+RTO: 25
+srtp_tx(): 44/500 pkts, 1280/1280 bytes.
+srtp_rx(): 45/500 pkts, 1280 bytes (good), v1=45 (good), v2=45 (good).
+RTO: 27
+srtp_tx(): 45/500 pkts, 1280/1280 bytes.
+srtp_rx(): 46/500 pkts, 1280 bytes (good), v1=46 (good), v2=46 (good).
+RTO: 24
+srtp_tx(): 46/500 pkts, 1280/1280 bytes.
+srtp_rx(): 47/500 pkts, 1280 bytes (good), v1=47 (good), v2=47 (good).
+RTO: 18
+srtp_tx(): 47/500 pkts, 1280/1280 bytes.
+srtp_rx(): 48/500 pkts, 1280 bytes (good), v1=48 (good), v2=48 (good).
+RTO: 5
+srtp_tx(): 48/500 pkts, 1280/1280 bytes.
+srtp_rx(): 49/500 pkts, 1280 bytes (good), v1=49 (good), v2=49 (good).
+RTO: -13
+srtp_tx(): 49/500 pkts, 1280/1280 bytes.
+srtp_rx(): 50/500 pkts, 1280 bytes (good), v1=50 (good), v2=50 (good).
+RTO: -20
+srtp_tx(): 50/500 pkts, 1280/1280 bytes.
+srtp_rx(): 51/500 pkts, 1280 bytes (good), v1=51 (good), v2=51 (good).
+RTO: -32
+srtp_tx(): 51/500 pkts, 1280/1280 bytes.
+srtp_rx(): 52/500 pkts, 1280 bytes (good), v1=52 (good), v2=52 (good).
+RTO: 2620
+srtp_tx(): 52/500 pkts, 1280/1280 bytes.
+srtp_rx(): 53/500 pkts, 1280 bytes (good), v1=53 (good), v2=53 (good).
+RTO: 2300
+srtp_tx(): 53/500 pkts, 1280/1280 bytes.
+srtp_rx(): 54/500 pkts, 1280 bytes (good), v1=54 (good), v2=54 (good).
+RTO: 2017
+srtp_tx(): 54/500 pkts, 1280/1280 bytes.
+srtp_rx(): 55/500 pkts, 1280 bytes (good), v1=55 (good), v2=55 (good).
+RTO: 1764
+srtp_tx(): 55/500 pkts, 1280/1280 bytes.
+srtp_rx(): 56/500 pkts, 1280 bytes (good), v1=56 (good), v2=56 (good).
+RTO: 1536
+srtp_tx(): 56/500 pkts, 1280/1280 bytes.
+srtp_rx(): 57/500 pkts, 1280 bytes (good), v1=57 (good), v2=57 (good).
+RTO: 1315
+srtp_tx(): 57/500 pkts, 1280/1280 bytes.
+srtp_rx(): 58/500 pkts, 1280 bytes (good), v1=58 (good), v2=58 (good).
+RTO: 1130
+srtp_tx(): 58/500 pkts, 1280/1280 bytes.
+srtp_rx(): 59/500 pkts, 1280 bytes (good), v1=59 (good), v2=59 (good).
+RTO: 967
+srtp_tx(): 59/500 pkts, 1280/1280 bytes.
+srtp_rx(): 60/500 pkts, 1280 bytes (good), v1=60 (good), v2=60 (good).
+RTO: 856
+srtp_tx(): 60/500 pkts, 1280/1280 bytes.
+srtp_rx(): 61/500 pkts, 1280 bytes (good), v1=61 (good), v2=61 (good).
+RTO: 739
+srtp_tx(): 61/500 pkts, 1280/1280 bytes.
+srtp_rx(): 62/500 pkts, 1280 bytes (good), v1=62 (good), v2=62 (good).
+RTO: 654
+srtp_tx(): 62/500 pkts, 1280/1280 bytes.
+srtp_rx(): 63/500 pkts, 1280 bytes (good), v1=63 (good), v2=63 (good).
+RTO: 2953
+srtp_tx(): 63/500 pkts, 1280/1280 bytes.
+srtp_rx(): 64/500 pkts, 1280 bytes (good), v1=64 (good), v2=64 (good).
+RTO: 2587
+srtp_tx(): 64/500 pkts, 1280/1280 bytes.
+srtp_rx(): 65/500 pkts, 1280 bytes (good), v1=65 (good), v2=65 (good).
+RTO: 2239
+srtp_tx(): 65/500 pkts, 1280/1280 bytes.
+srtp_rx(): 66/500 pkts, 1280 bytes (good), v1=66 (good), v2=66 (good).
+RTO: 1954
+srtp_tx(): 66/500 pkts, 1280/1280 bytes.
+srtp_rx(): 67/500 pkts, 1280 bytes (good), v1=67 (good), v2=67 (good).
+RTO: 1733
+srtp_tx(): 67/500 pkts, 1280/1280 bytes.
+srtp_rx(): 68/500 pkts, 1280 bytes (good), v1=68 (good), v2=68 (good).
+RTO: 1527
+srtp_tx(): 68/500 pkts, 1280/1280 bytes.
+srtp_rx(): 69/500 pkts, 1280 bytes (good), v1=69 (good), v2=69 (good).
+RTO: 1321
+srtp_tx(): 69/500 pkts, 1280/1280 bytes.
+srtp_rx(): 70/500 pkts, 1280 bytes (good), v1=70 (good), v2=70 (good).
+RTO: 1147
+srtp_tx(): 70/500 pkts, 1280/1280 bytes.
+srtp_rx(): 71/500 pkts, 1280 bytes (good), v1=71 (good), v2=71 (good).
+RTO: 3421
+srtp_tx(): 71/500 pkts, 1280/1280 bytes.
+srtp_rx(): 72/500 pkts, 1280 bytes (good), v1=72 (good), v2=72 (good).
+RTO: 3022
+srtp_tx(): 72/500 pkts, 1280/1280 bytes.
+srtp_rx(): 73/500 pkts, 1280 bytes (good), v1=73 (good), v2=73 (good).
+RTO: 2679
+srtp_tx(): 73/500 pkts, 1280/1280 bytes.
+srtp_rx(): 74/500 pkts, 1280 bytes (good), v1=74 (good), v2=74 (good).
+RTO: 2362
+srtp_tx(): 74/500 pkts, 1280/1280 bytes.
+srtp_rx(): 75/500 pkts, 1280 bytes (good), v1=75 (good), v2=75 (good).
+RTO: 2059
+srtp_tx(): 75/500 pkts, 1280/1280 bytes.
+srtp_rx(): 76/500 pkts, 1280 bytes (good), v1=76 (good), v2=76 (good).
+RTO: 1799
+srtp_tx(): 76/500 pkts, 1280/1280 bytes.
+srtp_rx(): 77/500 pkts, 1280 bytes (good), v1=77 (good), v2=77 (good).
+RTO: 1567
+srtp_tx(): 77/500 pkts, 1280/1280 bytes.
+srtp_rx(): 78/500 pkts, 1280 bytes (good), v1=78 (good), v2=78 (good).
+RTO: 1371
+srtp_tx(): 78/500 pkts, 1280/1280 bytes.
+srtp_rx(): 79/500 pkts, 1280 bytes (good), v1=79 (good), v2=79 (good).
+RTO: 1180
+srtp_tx(): 79/500 pkts, 1280/1280 bytes.
+srtp_rx(): 80/500 pkts, 1280 bytes (good), v1=80 (good), v2=80 (good).
+RTO: 1029
+srtp_tx(): 80/500 pkts, 1280/1280 bytes.
+srtp_rx(): 81/500 pkts, 1280 bytes (good), v1=81 (good), v2=81 (good).
+RTO: 898
+srtp_tx(): 81/500 pkts, 1280/1280 bytes.
+srtp_rx(): 82/500 pkts, 1280 bytes (good), v1=82 (good), v2=82 (good).
+RTO: 3250
+srtp_tx(): 82/500 pkts, 1280/1280 bytes.
+srtp_rx(): 83/500 pkts, 1280 bytes (good), v1=83 (good), v2=83 (good).
+RTO: 2885
+srtp_tx(): 83/500 pkts, 1280/1280 bytes.
+srtp_rx(): 84/500 pkts, 1280 bytes (good), v1=84 (good), v2=84 (good).
+RTO: 2528
+srtp_tx(): 84/500 pkts, 1280/1280 bytes.
+srtp_rx(): 85/500 pkts, 1280 bytes (good), v1=85 (good), v2=85 (good).
+RTO: 2219
+srtp_tx(): 85/500 pkts, 1280/1280 bytes.
+srtp_rx(): 86/500 pkts, 1280 bytes (good), v1=86 (good), v2=86 (good).
+RTO: 1937
+srtp_tx(): 86/500 pkts, 1280/1280 bytes.
+srtp_rx(): 87/500 pkts, 1280 bytes (good), v1=87 (good), v2=87 (good).
+RTO: 1698
+srtp_tx(): 87/500 pkts, 1280/1280 bytes.
+srtp_rx(): 88/500 pkts, 1280 bytes (good), v1=88 (good), v2=88 (good).
+RTO: 1477
+srtp_tx(): 88/500 pkts, 1280/1280 bytes.
+srtp_rx(): 89/500 pkts, 1280 bytes (good), v1=89 (good), v2=89 (good).
+RTO: 1307
+srtp_tx(): 89/500 pkts, 1280/1280 bytes.
+srtp_rx(): 90/500 pkts, 1280 bytes (good), v1=90 (good), v2=90 (good).
+RTO: 1134
+srtp_tx(): 90/500 pkts, 1280/1280 bytes.
+srtp_rx(): 91/500 pkts, 1280 bytes (good), v1=91 (good), v2=91 (good).
+RTO: 982
+srtp_tx(): 91/500 pkts, 1280/1280 bytes.
+srtp_rx(): 92/500 pkts, 1280 bytes (good), v1=92 (good), v2=92 (good).
+RTO: 873
+srtp_tx(): 92/500 pkts, 1280/1280 bytes.
+srtp_rx(): 93/500 pkts, 1280 bytes (good), v1=93 (good), v2=93 (good).
+RTO: 766
+srtp_tx(): 93/500 pkts, 1280/1280 bytes.
+srtp_rx(): 94/500 pkts, 1280 bytes (good), v1=94 (good), v2=94 (good).
+RTO: 651
+srtp_tx(): 94/500 pkts, 1280/1280 bytes.
+srtp_rx(): 95/500 pkts, 1280 bytes (good), v1=95 (good), v2=95 (good).
+RTO: 567
+srtp_tx(): 95/500 pkts, 1280/1280 bytes.
+srtp_rx(): 96/500 pkts, 1280 bytes (good), v1=96 (good), v2=96 (good).
+RTO: 478
+srtp_tx(): 96/500 pkts, 1280/1280 bytes.
+srtp_rx(): 97/500 pkts, 1280 bytes (good), v1=97 (good), v2=97 (good).
+RTO: 381
+srtp_tx(): 97/500 pkts, 1280/1280 bytes.
+srtp_rx(): 98/500 pkts, 1280 bytes (good), v1=98 (good), v2=98 (good).
+RTO: 322
+srtp_tx(): 98/500 pkts, 1280/1280 bytes.
+srtp_rx(): 99/500 pkts, 1280 bytes (good), v1=99 (good), v2=99 (good).
+RTO: 276
+srtp_tx(): 99/500 pkts, 1280/1280 bytes.
+srtp_rx(): 100/500 pkts, 1280 bytes (good), v1=100 (good), v2=100 (good).
+RTO: 229
+srtp_tx(): 100/500 pkts, 1280/1280 bytes.
+srtp_rx(): 101/500 pkts, 1280 bytes (good), v1=101 (good), v2=101 (good).
+RTO: 191
+srtp_tx(): 101/500 pkts, 1280/1280 bytes.
+srtp_rx(): 102/500 pkts, 1280 bytes (good), v1=102 (good), v2=102 (good).
+RTO: 170
+srtp_tx(): 102/500 pkts, 1280/1280 bytes.
+srtp_rx(): 103/500 pkts, 1280 bytes (good), v1=103 (good), v2=103 (good).
+RTO: 137
+srtp_tx(): 103/500 pkts, 1280/1280 bytes.
+srtp_rx(): 104/500 pkts, 1280 bytes (good), v1=104 (good), v2=104 (good).
+RTO: 83
+srtp_tx(): 104/500 pkts, 1280/1280 bytes.
+srtp_rx(): 105/500 pkts, 1280 bytes (good), v1=105 (good), v2=105 (good).
+RTO: 64
+srtp_tx(): 105/500 pkts, 1280/1280 bytes.
+srtp_rx(): 106/500 pkts, 1280 bytes (good), v1=106 (good), v2=106 (good).
+RTO: 69
+srtp_tx(): 106/500 pkts, 1280/1280 bytes.
+srtp_rx(): 107/500 pkts, 1280 bytes (good), v1=107 (good), v2=107 (good).
+RTO: 67
+srtp_tx(): 107/500 pkts, 1280/1280 bytes.
+srtp_rx(): 108/500 pkts, 1280 bytes (good), v1=108 (good), v2=108 (good).
+RTO: 62
+srtp_tx(): 108/500 pkts, 1280/1280 bytes.
+srtp_rx(): 109/500 pkts, 1280 bytes (good), v1=109 (good), v2=109 (good).
+RTO: 57
+srtp_tx(): 109/500 pkts, 1280/1280 bytes.
+srtp_rx(): 110/500 pkts, 1280 bytes (good), v1=110 (good), v2=110 (good).
+RTO: 39
+srtp_tx(): 110/500 pkts, 1280/1280 bytes.
+srtp_rx(): 111/500 pkts, 1280 bytes (good), v1=111 (good), v2=111 (good).
+RTO: 1241
+srtp_tx(): 111/500 pkts, 1280/1280 bytes.
+srtp_rx(): 112/500 pkts, 1280 bytes (good), v1=112 (good), v2=112 (good).
+RTO: 1061
+srtp_tx(): 112/500 pkts, 1280/1280 bytes.
+srtp_rx(): 113/500 pkts, 1280 bytes (good), v1=113 (good), v2=113 (good).
+RTO: 924
+srtp_tx(): 113/500 pkts, 1280/1280 bytes.
+srtp_rx(): 114/500 pkts, 1280 bytes (good), v1=114 (good), v2=114 (good).
+RTO: 801
+srtp_tx(): 114/500 pkts, 1280/1280 bytes.
+srtp_rx(): 115/500 pkts, 1280 bytes (good), v1=115 (good), v2=115 (good).
+RTO: 694
+srtp_tx(): 115/500 pkts, 1280/1280 bytes.
+srtp_rx(): 116/500 pkts, 1280 bytes (good), v1=116 (good), v2=116 (good).
+RTO: 601
+srtp_tx(): 116/500 pkts, 1280/1280 bytes.
+srtp_rx(): 117/500 pkts, 1280 bytes (good), v1=117 (good), v2=117 (good).
+RTO: 495
+srtp_tx(): 117/500 pkts, 1280/1280 bytes.
+srtp_rx(): 118/500 pkts, 1280 bytes (good), v1=118 (good), v2=118 (good).
+RTO: 408
+srtp_tx(): 118/500 pkts, 1280/1280 bytes.
+srtp_rx(): 119/500 pkts, 1280 bytes (good), v1=119 (good), v2=119 (good).
+RTO: 340
+srtp_tx(): 119/500 pkts, 1280/1280 bytes.
+srtp_rx(): 120/500 pkts, 1280 bytes (good), v1=120 (good), v2=120 (good).
+RTO: 253
+srtp_tx(): 120/500 pkts, 1280/1280 bytes.
+srtp_rx(): 121/500 pkts, 1280 bytes (good), v1=121 (good), v2=121 (good).
+RTO: 230
+srtp_tx(): 121/500 pkts, 1280/1280 bytes.
+srtp_rx(): 122/500 pkts, 1280 bytes (good), v1=122 (good), v2=122 (good).
+RTO: 180
+srtp_tx(): 122/500 pkts, 1280/1280 bytes.
+srtp_rx(): 123/500 pkts, 1280 bytes (good), v1=123 (good), v2=123 (good).
+RTO: 143
+srtp_tx(): 123/500 pkts, 1280/1280 bytes.
+srtp_rx(): 124/500 pkts, 1280 bytes (good), v1=124 (good), v2=124 (good).
+RTO: 113
+srtp_tx(): 124/500 pkts, 1280/1280 bytes.
+srtp_rx(): 125/500 pkts, 1280 bytes (good), v1=125 (good), v2=125 (good).
+RTO: 101
+srtp_tx(): 125/500 pkts, 1280/1280 bytes.
+srtp_rx(): 126/500 pkts, 1280 bytes (good), v1=126 (good), v2=126 (good).
+RTO: 67
+srtp_tx(): 126/500 pkts, 1280/1280 bytes.
+srtp_rx(): 127/500 pkts, 1280 bytes (good), v1=127 (good), v2=127 (good).
+RTO: 23
+srtp_tx(): 127/500 pkts, 1280/1280 bytes.
+srtp_rx(): 128/500 pkts, 1280 bytes (good), v1=128 (good), v2=128 (good).
+RTO: 27
+srtp_tx(): 128/500 pkts, 1280/1280 bytes.
+srtp_rx(): 129/500 pkts, 1280 bytes (good), v1=129 (good), v2=129 (good).
+RTO: 7
+srtp_tx(): 129/500 pkts, 1280/1280 bytes.
+srtp_rx(): 130/500 pkts, 1280 bytes (good), v1=130 (good), v2=130 (good).
+RTO: 10
+srtp_tx(): 130/500 pkts, 1280/1280 bytes.
+srtp_rx(): 131/500 pkts, 1280 bytes (good), v1=131 (good), v2=131 (good).
+RTO: 7
+srtp_tx(): 131/500 pkts, 1280/1280 bytes.
+srtp_rx(): 132/500 pkts, 1280 bytes (good), v1=132 (good), v2=132 (good).
+RTO: -18
+srtp_tx(): 132/500 pkts, 1280/1280 bytes.
+srtp_rx(): 133/500 pkts, 1280 bytes (good), v1=133 (good), v2=133 (good).
+RTO: -34
+srtp_tx(): 133/500 pkts, 1280/1280 bytes.
+srtp_rx(): 134/500 pkts, 1280 bytes (good), v1=134 (good), v2=134 (good).
+RTO: -52
+srtp_tx(): 134/500 pkts, 1280/1280 bytes.
+srtp_rx(): 135/500 pkts, 1280 bytes (good), v1=135 (good), v2=135 (good).
+RTO: -64
+srtp_tx(): 135/500 pkts, 1280/1280 bytes.
+srtp_rx(): 136/500 pkts, 1280 bytes (good), v1=136 (good), v2=136 (good).
+RTO: -72
+srtp_tx(): 136/500 pkts, 1280/1280 bytes.
+srtp_rx(): 137/500 pkts, 1280 bytes (good), v1=137 (good), v2=137 (good).
+RTO: -75
+srtp_tx(): 137/500 pkts, 1280/1280 bytes.
+srtp_rx(): 138/500 pkts, 1280 bytes (good), v1=138 (good), v2=138 (good).
+RTO: -81
+srtp_tx(): 138/500 pkts, 1280/1280 bytes.
+srtp_rx(): 139/500 pkts, 1280 bytes (good), v1=139 (good), v2=139 (good).
+RTO: -80
+srtp_tx(): 139/500 pkts, 1280/1280 bytes.
+srtp_rx(): 140/500 pkts, 1280 bytes (good), v1=140 (good), v2=140 (good).
+RTO: -74
+srtp_tx(): 140/500 pkts, 1280/1280 bytes.
+srtp_rx(): 141/500 pkts, 1280 bytes (good), v1=141 (good), v2=141 (good).
+RTO: -55
+srtp_tx(): 141/500 pkts, 1280/1280 bytes.
+srtp_rx(): 142/500 pkts, 1280 bytes (good), v1=142 (good), v2=142 (good).
+RTO: -64
+srtp_tx(): 142/500 pkts, 1280/1280 bytes.
+srtp_rx(): 143/500 pkts, 1280 bytes (good), v1=143 (good), v2=143 (good).
+RTO: -76
+srtp_tx(): 143/500 pkts, 1280/1280 bytes.
+srtp_rx(): 144/500 pkts, 1280 bytes (good), v1=144 (good), v2=144 (good).
+RTO: -80
+srtp_tx(): 144/500 pkts, 1280/1280 bytes.
+srtp_rx(): 145/500 pkts, 1280 bytes (good), v1=145 (good), v2=145 (good).
+RTO: -84
+srtp_tx(): 145/500 pkts, 1280/1280 bytes.
+srtp_rx(): 146/500 pkts, 1280 bytes (good), v1=146 (good), v2=146 (good).
+RTO: -67
+srtp_tx(): 146/500 pkts, 1280/1280 bytes.
+srtp_rx(): 147/500 pkts, 1280 bytes (good), v1=147 (good), v2=147 (good).
+RTO: -84
+srtp_tx(): 147/500 pkts, 1280/1280 bytes.
+srtp_rx(): 148/500 pkts, 1280 bytes (good), v1=148 (good), v2=148 (good).
+RTO: -87
+srtp_tx(): 148/500 pkts, 1280/1280 bytes.
+srtp_rx(): 149/500 pkts, 1280 bytes (good), v1=149 (good), v2=149 (good).
+RTO: -101
+srtp_tx(): 149/500 pkts, 1280/1280 bytes.
+srtp_rx(): 150/500 pkts, 1280 bytes (good), v1=150 (good), v2=150 (good).
+RTO: -99
+srtp_tx(): 150/500 pkts, 1280/1280 bytes.
+srtp_rx(): 151/500 pkts, 1280 bytes (good), v1=151 (good), v2=151 (good).
+RTO: -95
+srtp_tx(): 151/500 pkts, 1280/1280 bytes.
+srtp_rx(): 152/500 pkts, 1280 bytes (good), v1=152 (good), v2=152 (good).
+RTO: -99
+srtp_tx(): 152/500 pkts, 1280/1280 bytes.
+srtp_rx(): 153/500 pkts, 1280 bytes (good), v1=153 (good), v2=153 (good).
+RTO: -95
+srtp_tx(): 153/500 pkts, 1280/1280 bytes.
+srtp_rx(): 154/500 pkts, 1280 bytes (good), v1=154 (good), v2=154 (good).
+RTO: -105
+srtp_tx(): 154/500 pkts, 1280/1280 bytes.
+srtp_rx(): 155/500 pkts, 1280 bytes (good), v1=155 (good), v2=155 (good).
+RTO: -102
+srtp_tx(): 155/500 pkts, 1280/1280 bytes.
+srtp_rx(): 156/500 pkts, 1280 bytes (good), v1=156 (good), v2=156 (good).
+RTO: -102
+srtp_tx(): 156/500 pkts, 1280/1280 bytes.
+srtp_rx(): 157/500 pkts, 1280 bytes (good), v1=157 (good), v2=157 (good).
+RTO: -99
+srtp_tx(): 157/500 pkts, 1280/1280 bytes.
+srtp_rx(): 158/500 pkts, 1280 bytes (good), v1=158 (good), v2=158 (good).
+RTO: -107
+srtp_tx(): 158/500 pkts, 1280/1280 bytes.
+srtp_rx(): 159/500 pkts, 1280 bytes (good), v1=159 (good), v2=159 (good).
+RTO: -89
+srtp_tx(): 159/500 pkts, 1280/1280 bytes.
+srtp_rx(): 160/500 pkts, 1280 bytes (good), v1=160 (good), v2=160 (good).
+RTO: -101
+srtp_tx(): 160/500 pkts, 1280/1280 bytes.
+srtp_rx(): 161/500 pkts, 1280 bytes (good), v1=161 (good), v2=161 (good).
+RTO: -89
+srtp_tx(): 161/500 pkts, 1280/1280 bytes.
+srtp_rx(): 162/500 pkts, 1280 bytes (good), v1=162 (good), v2=162 (good).
+RTO: -86
+srtp_tx(): 162/500 pkts, 1280/1280 bytes.
+srtp_rx(): 163/500 pkts, 1280 bytes (good), v1=163 (good), v2=163 (good).
+RTO: -90
+srtp_tx(): 163/500 pkts, 1280/1280 bytes.
+srtp_rx(): 164/500 pkts, 1280 bytes (good), v1=164 (good), v2=164 (good).
+RTO: -104
+srtp_tx(): 164/500 pkts, 1280/1280 bytes.
+srtp_rx(): 165/500 pkts, 1280 bytes (good), v1=165 (good), v2=165 (good).
+RTO: -99
+srtp_tx(): 165/500 pkts, 1280/1280 bytes.
+srtp_rx(): 166/500 pkts, 1280 bytes (good), v1=166 (good), v2=166 (good).
+RTO: -114
+srtp_tx(): 166/500 pkts, 1280/1280 bytes.
+srtp_rx(): 167/500 pkts, 1280 bytes (good), v1=167 (good), v2=167 (good).
+RTO: -107
+srtp_tx(): 167/500 pkts, 1280/1280 bytes.
+srtp_rx(): 168/500 pkts, 1280 bytes (good), v1=168 (good), v2=168 (good).
+RTO: -122
+srtp_tx(): 168/500 pkts, 1280/1280 bytes.
+srtp_rx(): 169/500 pkts, 1280 bytes (good), v1=169 (good), v2=169 (good).
+RTO: -113
+srtp_tx(): 169/500 pkts, 1280/1280 bytes.
+srtp_rx(): 170/500 pkts, 1280 bytes (good), v1=170 (good), v2=170 (good).
+RTO: -111
+srtp_tx(): 170/500 pkts, 1280/1280 bytes.
+srtp_rx(): 171/500 pkts, 1280 bytes (good), v1=171 (good), v2=171 (good).
+RTO: -105
+srtp_tx(): 171/500 pkts, 1280/1280 bytes.
+srtp_rx(): 172/500 pkts, 1280 bytes (good), v1=172 (good), v2=172 (good).
+RTO: -120
+srtp_tx(): 172/500 pkts, 1280/1280 bytes.
+srtp_rx(): 173/500 pkts, 1280 bytes (good), v1=173 (good), v2=173 (good).
+RTO: -120
+srtp_tx(): 173/500 pkts, 1280/1280 bytes.
+srtp_rx(): 174/500 pkts, 1280 bytes (good), v1=174 (good), v2=174 (good).
+RTO: -111
+srtp_tx(): 174/500 pkts, 1280/1280 bytes.
+srtp_rx(): 175/500 pkts, 1280 bytes (good), v1=175 (good), v2=175 (good).
+RTO: -107
+srtp_tx(): 175/500 pkts, 1280/1280 bytes.
+srtp_rx(): 176/500 pkts, 1280 bytes (good), v1=176 (good), v2=176 (good).
+RTO: -114
+srtp_tx(): 176/500 pkts, 1280/1280 bytes.
+srtp_rx(): 177/500 pkts, 1280 bytes (good), v1=177 (good), v2=177 (good).
+RTO: -112
+srtp_tx(): 177/500 pkts, 1280/1280 bytes.
+srtp_rx(): 178/500 pkts, 1280 bytes (good), v1=178 (good), v2=178 (good).
+RTO: -110
+srtp_tx(): 178/500 pkts, 1280/1280 bytes.
+srtp_rx(): 179/500 pkts, 1280 bytes (good), v1=179 (good), v2=179 (good).
+RTO: -112
+srtp_tx(): 179/500 pkts, 1280/1280 bytes.
+srtp_rx(): 180/500 pkts, 1280 bytes (good), v1=180 (good), v2=180 (good).
+RTO: -130
+srtp_tx(): 180/500 pkts, 1280/1280 bytes.
+srtp_rx(): 181/500 pkts, 1280 bytes (good), v1=181 (good), v2=181 (good).
+RTO: -127
+srtp_tx(): 181/500 pkts, 1280/1280 bytes.
+srtp_rx(): 182/500 pkts, 1280 bytes (good), v1=182 (good), v2=182 (good).
+RTO: 1324
+srtp_tx(): 182/500 pkts, 1280/1280 bytes.
+srtp_rx(): 183/500 pkts, 1280 bytes (good), v1=183 (good), v2=183 (good).
+RTO: 1123
+srtp_tx(): 183/500 pkts, 1280/1280 bytes.
+srtp_rx(): 184/500 pkts, 1280 bytes (good), v1=184 (good), v2=184 (good).
+RTO: 959
+srtp_tx(): 184/500 pkts, 1280/1280 bytes.
+srtp_rx(): 185/500 pkts, 1280 bytes (good), v1=185 (good), v2=185 (good).
+RTO: 828
+srtp_tx(): 185/500 pkts, 1280/1280 bytes.
+srtp_rx(): 186/500 pkts, 1280 bytes (good), v1=186 (good), v2=186 (good).
+RTO: 718
+srtp_tx(): 186/500 pkts, 1280/1280 bytes.
+srtp_rx(): 187/500 pkts, 1280 bytes (good), v1=187 (good), v2=187 (good).
+RTO: 596
+srtp_tx(): 187/500 pkts, 1280/1280 bytes.
+srtp_rx(): 188/500 pkts, 1280 bytes (good), v1=188 (good), v2=188 (good).
+RTO: 510
+srtp_tx(): 188/500 pkts, 1280/1280 bytes.
+srtp_rx(): 189/500 pkts, 1280 bytes (good), v1=189 (good), v2=189 (good).
+RTO: 429
+srtp_tx(): 189/500 pkts, 1280/1280 bytes.
+srtp_rx(): 190/500 pkts, 1280 bytes (good), v1=190 (good), v2=190 (good).
+RTO: 337
+srtp_tx(): 190/500 pkts, 1280/1280 bytes.
+srtp_rx(): 191/500 pkts, 1280 bytes (good), v1=191 (good), v2=191 (good).
+RTO: 280
+srtp_tx(): 191/500 pkts, 1280/1280 bytes.
+srtp_rx(): 192/500 pkts, 1280 bytes (good), v1=192 (good), v2=192 (good).
+RTO: 206
+srtp_tx(): 192/500 pkts, 1280/1280 bytes.
+srtp_rx(): 193/500 pkts, 1280 bytes (good), v1=193 (good), v2=193 (good).
+RTO: 220
+srtp_tx(): 193/500 pkts, 1280/1280 bytes.
+srtp_rx(): 194/500 pkts, 1280 bytes (good), v1=194 (good), v2=194 (good).
+RTO: 2680
+srtp_tx(): 194/500 pkts, 1280/1280 bytes.
+srtp_rx(): 195/500 pkts, 1280 bytes (good), v1=195 (good), v2=195 (good).
+RTO: 2359
+srtp_tx(): 195/500 pkts, 1280/1280 bytes.
+srtp_rx(): 196/500 pkts, 1280 bytes (good), v1=196 (good), v2=196 (good).
+RTO: 2049
+srtp_tx(): 196/500 pkts, 1280/1280 bytes.
+srtp_rx(): 197/500 pkts, 1280 bytes (good), v1=197 (good), v2=197 (good).
+RTO: 1794
+srtp_tx(): 197/500 pkts, 1280/1280 bytes.
+srtp_rx(): 198/500 pkts, 1280 bytes (good), v1=198 (good), v2=198 (good).
+RTO: 1565
+srtp_tx(): 198/500 pkts, 1280/1280 bytes.
+srtp_rx(): 199/500 pkts, 1280 bytes (good), v1=199 (good), v2=199 (good).
+RTO: 1351
+srtp_tx(): 199/500 pkts, 1280/1280 bytes.
+srtp_rx(): 200/500 pkts, 1280 bytes (good), v1=200 (good), v2=200 (good).
+RTO: 1151
+srtp_tx(): 200/500 pkts, 1280/1280 bytes.
+srtp_rx(): 201/500 pkts, 1280 bytes (good), v1=201 (good), v2=201 (good).
+RTO: 992
+srtp_tx(): 201/500 pkts, 1280/1280 bytes.
+srtp_rx(): 202/500 pkts, 1280 bytes (good), v1=202 (good), v2=202 (good).
+RTO: 837
+srtp_tx(): 202/500 pkts, 1280/1280 bytes.
+srtp_rx(): 203/500 pkts, 1280 bytes (good), v1=203 (good), v2=203 (good).
+RTO: 718
+srtp_tx(): 203/500 pkts, 1280/1280 bytes.
+srtp_rx(): 204/500 pkts, 1280 bytes (good), v1=204 (good), v2=204 (good).
+RTO: 593
+srtp_tx(): 204/500 pkts, 1280/1280 bytes.
+srtp_rx(): 205/500 pkts, 1280 bytes (good), v1=205 (good), v2=205 (good).
+RTO: 490
+srtp_tx(): 205/500 pkts, 1280/1280 bytes.
+srtp_rx(): 206/500 pkts, 1280 bytes (good), v1=206 (good), v2=206 (good).
+RTO: 393
+srtp_tx(): 206/500 pkts, 1280/1280 bytes.
+srtp_rx(): 207/500 pkts, 1280 bytes (good), v1=207 (good), v2=207 (good).
+RTO: 311
+srtp_tx(): 207/500 pkts, 1280/1280 bytes.
+srtp_rx(): 208/500 pkts, 1280 bytes (good), v1=208 (good), v2=208 (good).
+RTO: 244
+srtp_tx(): 208/500 pkts, 1280/1280 bytes.
+srtp_rx(): 209/500 pkts, 1280 bytes (good), v1=209 (good), v2=209 (good).
+RTO: 200
+srtp_tx(): 209/500 pkts, 1280/1280 bytes.
+srtp_rx(): 210/500 pkts, 1280 bytes (good), v1=210 (good), v2=210 (good).
+RTO: 145
+srtp_tx(): 210/500 pkts, 1280/1280 bytes.
+srtp_rx(): 211/500 pkts, 1280 bytes (good), v1=211 (good), v2=211 (good).
+RTO: 117
+srtp_tx(): 211/500 pkts, 1280/1280 bytes.
+srtp_rx(): 212/500 pkts, 1280 bytes (good), v1=212 (good), v2=212 (good).
+RTO: 61
+srtp_tx(): 212/500 pkts, 1280/1280 bytes.
+srtp_rx(): 213/500 pkts, 1280 bytes (good), v1=213 (good), v2=213 (good).
+RTO: 22
+srtp_tx(): 213/500 pkts, 1280/1280 bytes.
+srtp_rx(): 214/500 pkts, 1280 bytes (good), v1=214 (good), v2=214 (good).
+RTO: 6
+srtp_tx(): 214/500 pkts, 1280/1280 bytes.
+srtp_rx(): 215/500 pkts, 1280 bytes (good), v1=215 (good), v2=215 (good).
+RTO: -10
+srtp_tx(): 215/500 pkts, 1280/1280 bytes.
+srtp_rx(): 216/500 pkts, 1280 bytes (good), v1=216 (good), v2=216 (good).
+RTO: -47
+srtp_tx(): 216/500 pkts, 1280/1280 bytes.
+srtp_rx(): 217/500 pkts, 1280 bytes (good), v1=217 (good), v2=217 (good).
+RTO: -74
+srtp_tx(): 217/500 pkts, 1280/1280 bytes.
+srtp_rx(): 218/500 pkts, 1280 bytes (good), v1=218 (good), v2=218 (good).
+RTO: -101
+srtp_tx(): 218/500 pkts, 1280/1280 bytes.
+srtp_rx(): 219/500 pkts, 1280 bytes (good), v1=219 (good), v2=219 (good).
+RTO: -107
+srtp_tx(): 219/500 pkts, 1280/1280 bytes.
+srtp_rx(): 220/500 pkts, 1280 bytes (good), v1=220 (good), v2=220 (good).
+RTO: -136
+srtp_tx(): 220/500 pkts, 1280/1280 bytes.
+srtp_rx(): 221/500 pkts, 1280 bytes (good), v1=221 (good), v2=221 (good).
+RTO: -134
+srtp_tx(): 221/500 pkts, 1280/1280 bytes.
+srtp_rx(): 222/500 pkts, 1280 bytes (good), v1=222 (good), v2=222 (good).
+RTO: -153
+srtp_tx(): 222/500 pkts, 1280/1280 bytes.
+srtp_rx(): 223/500 pkts, 1280 bytes (good), v1=223 (good), v2=223 (good).
+RTO: -171
+srtp_tx(): 223/500 pkts, 1280/1280 bytes.
+srtp_rx(): 224/500 pkts, 1280 bytes (good), v1=224 (good), v2=224 (good).
+RTO: -186
+srtp_tx(): 224/500 pkts, 1280/1280 bytes.
+srtp_rx(): 225/500 pkts, 1280 bytes (good), v1=225 (good), v2=225 (good).
+RTO: 430
+srtp_tx(): 225/500 pkts, 1280/1280 bytes.
+srtp_rx(): 226/500 pkts, 1280 bytes (good), v1=226 (good), v2=226 (good).
+RTO: 345
+srtp_tx(): 226/500 pkts, 1280/1280 bytes.
+srtp_rx(): 227/500 pkts, 1280 bytes (good), v1=227 (good), v2=227 (good).
+RTO: 272
+srtp_tx(): 227/500 pkts, 1280/1280 bytes.
+srtp_rx(): 228/500 pkts, 1280 bytes (good), v1=228 (good), v2=228 (good).
+RTO: 226
+srtp_tx(): 228/500 pkts, 1280/1280 bytes.
+srtp_rx(): 229/500 pkts, 1280 bytes (good), v1=229 (good), v2=229 (good).
+RTO: 163
+srtp_tx(): 229/500 pkts, 1280/1280 bytes.
+srtp_rx(): 230/500 pkts, 1280 bytes (good), v1=230 (good), v2=230 (good).
+RTO: 127
+srtp_tx(): 230/500 pkts, 1280/1280 bytes.
+srtp_rx(): 231/500 pkts, 1280 bytes (good), v1=231 (good), v2=231 (good).
+RTO: 93
+srtp_tx(): 231/500 pkts, 1280/1280 bytes.
+srtp_rx(): 232/500 pkts, 1280 bytes (good), v1=232 (good), v2=232 (good).
+RTO: 53
+srtp_tx(): 232/500 pkts, 1280/1280 bytes.
+srtp_rx(): 233/500 pkts, 1280 bytes (good), v1=233 (good), v2=233 (good).
+RTO: 0
+srtp_tx(): 233/500 pkts, 1280/1280 bytes.
+srtp_rx(): 234/500 pkts, 1280 bytes (good), v1=234 (good), v2=234 (good).
+RTO: -24
+srtp_tx(): 234/500 pkts, 1280/1280 bytes.
+srtp_rx(): 235/500 pkts, 1280 bytes (good), v1=235 (good), v2=235 (good).
+RTO: -49
+srtp_tx(): 235/500 pkts, 1280/1280 bytes.
+srtp_rx(): 236/500 pkts, 1280 bytes (good), v1=236 (good), v2=236 (good).
+RTO: -89
+srtp_tx(): 236/500 pkts, 1280/1280 bytes.
+srtp_rx(): 237/500 pkts, 1280 bytes (good), v1=237 (good), v2=237 (good).
+RTO: -119
+srtp_tx(): 237/500 pkts, 1280/1280 bytes.
+srtp_rx(): 238/500 pkts, 1280 bytes (good), v1=238 (good), v2=238 (good).
+RTO: -140
+srtp_tx(): 238/500 pkts, 1280/1280 bytes.
+srtp_rx(): 239/500 pkts, 1280 bytes (good), v1=239 (good), v2=239 (good).
+RTO: -143
+srtp_tx(): 239/500 pkts, 1280/1280 bytes.
+srtp_rx(): 240/500 pkts, 1280 bytes (good), v1=240 (good), v2=240 (good).
+RTO: -168
+srtp_tx(): 240/500 pkts, 1280/1280 bytes.
+srtp_rx(): 241/500 pkts, 1280 bytes (good), v1=241 (good), v2=241 (good).
+RTO: -154
+srtp_tx(): 241/500 pkts, 1280/1280 bytes.
+srtp_rx(): 242/500 pkts, 1280 bytes (good), v1=242 (good), v2=242 (good).
+RTO: -115
+srtp_tx(): 242/500 pkts, 1280/1280 bytes.
+srtp_rx(): 243/500 pkts, 1280 bytes (good), v1=243 (good), v2=243 (good).
+RTO: -143
+srtp_tx(): 243/500 pkts, 1280/1280 bytes.
+srtp_rx(): 244/500 pkts, 1280 bytes (good), v1=244 (good), v2=244 (good).
+RTO: -164
+srtp_tx(): 244/500 pkts, 1280/1280 bytes.
+srtp_rx(): 245/500 pkts, 1280 bytes (good), v1=245 (good), v2=245 (good).
+RTO: -166
+srtp_tx(): 245/500 pkts, 1280/1280 bytes.
+srtp_rx(): 246/500 pkts, 1280 bytes (good), v1=246 (good), v2=246 (good).
+RTO: -189
+srtp_tx(): 246/500 pkts, 1280/1280 bytes.
+srtp_rx(): 247/500 pkts, 1280 bytes (good), v1=247 (good), v2=247 (good).
+RTO: -203
+srtp_tx(): 247/500 pkts, 1280/1280 bytes.
+srtp_rx(): 248/500 pkts, 1280 bytes (good), v1=248 (good), v2=248 (good).
+RTO: -193
+srtp_tx(): 248/500 pkts, 1280/1280 bytes.
+srtp_rx(): 249/500 pkts, 1280 bytes (good), v1=249 (good), v2=249 (good).
+RTO: -187
+srtp_tx(): 249/500 pkts, 1280/1280 bytes.
+srtp_rx(): 250/500 pkts, 1280 bytes (good), v1=250 (good), v2=250 (good).
+RTO: -190
+srtp_tx(): 250/500 pkts, 1280/1280 bytes.
+srtp_rx(): 251/500 pkts, 1280 bytes (good), v1=251 (good), v2=251 (good).
+RTO: -194
+srtp_tx(): 251/500 pkts, 1280/1280 bytes.
+srtp_rx(): 252/500 pkts, 1280 bytes (good), v1=252 (good), v2=252 (good).
+RTO: -222
+srtp_tx(): 252/500 pkts, 1280/1280 bytes.
+srtp_rx(): 253/500 pkts, 1280 bytes (good), v1=253 (good), v2=253 (good).
+RTO: -226
+srtp_tx(): 253/500 pkts, 1280/1280 bytes.
+srtp_rx(): 254/500 pkts, 1280 bytes (good), v1=254 (good), v2=254 (good).
+RTO: -241
+srtp_tx(): 254/500 pkts, 1280/1280 bytes.
+srtp_rx(): 255/500 pkts, 1280 bytes (good), v1=255 (good), v2=255 (good).
+RTO: -235
+srtp_tx(): 255/500 pkts, 1280/1280 bytes.
+srtp_rx(): 256/500 pkts, 1280 bytes (good), v1=256 (good), v2=256 (good).
+RTO: -235
+srtp_tx(): 256/500 pkts, 1280/1280 bytes.
+srtp_rx(): 257/500 pkts, 1280 bytes (good), v1=257 (good), v2=257 (good).
+RTO: -252
+srtp_tx(): 257/500 pkts, 1280/1280 bytes.
+srtp_rx(): 258/500 pkts, 1280 bytes (good), v1=258 (good), v2=258 (good).
+RTO: -243
+srtp_tx(): 258/500 pkts, 1280/1280 bytes.
+srtp_rx(): 259/500 pkts, 1280 bytes (good), v1=259 (good), v2=259 (good).
+RTO: -229
+srtp_tx(): 259/500 pkts, 1280/1280 bytes.
+srtp_rx(): 260/500 pkts, 1280 bytes (good), v1=260 (good), v2=260 (good).
+RTO: -237
+srtp_tx(): 260/500 pkts, 1280/1280 bytes.
+srtp_rx(): 261/500 pkts, 1280 bytes (good), v1=261 (good), v2=261 (good).
+RTO: -243
+srtp_tx(): 261/500 pkts, 1280/1280 bytes.
+srtp_rx(): 262/500 pkts, 1280 bytes (good), v1=262 (good), v2=262 (good).
+RTO: 410
+srtp_tx(): 262/500 pkts, 1280/1280 bytes.
+srtp_rx(): 263/500 pkts, 1280 bytes (good), v1=263 (good), v2=263 (good).
+RTO: 298
+srtp_tx(): 263/500 pkts, 1280/1280 bytes.
+srtp_rx(): 264/500 pkts, 1280 bytes (good), v1=264 (good), v2=264 (good).
+RTO: 217
+srtp_tx(): 264/500 pkts, 1280/1280 bytes.
+srtp_rx(): 265/500 pkts, 1280 bytes (good), v1=265 (good), v2=265 (good).
+RTO: 165
+srtp_tx(): 265/500 pkts, 1280/1280 bytes.
+srtp_rx(): 266/500 pkts, 1280 bytes (good), v1=266 (good), v2=266 (good).
+RTO: 110
+srtp_tx(): 266/500 pkts, 1280/1280 bytes.
+srtp_rx(): 267/500 pkts, 1280 bytes (good), v1=267 (good), v2=267 (good).
+RTO: 48
+srtp_tx(): 267/500 pkts, 1280/1280 bytes.
+srtp_rx(): 268/500 pkts, 1280 bytes (good), v1=268 (good), v2=268 (good).
+RTO: 25
+srtp_tx(): 268/500 pkts, 1280/1280 bytes.
+srtp_rx(): 269/500 pkts, 1280 bytes (good), v1=269 (good), v2=269 (good).
+RTO: -9
+srtp_tx(): 269/500 pkts, 1280/1280 bytes.
+srtp_rx(): 270/500 pkts, 1280 bytes (good), v1=270 (good), v2=270 (good).
+RTO: -60
+srtp_tx(): 270/500 pkts, 1280/1280 bytes.
+srtp_rx(): 271/500 pkts, 1280 bytes (good), v1=271 (good), v2=271 (good).
+RTO: -82
+srtp_tx(): 271/500 pkts, 1280/1280 bytes.
+srtp_rx(): 272/500 pkts, 1280 bytes (good), v1=272 (good), v2=272 (good).
+RTO: -121
+srtp_tx(): 272/500 pkts, 1280/1280 bytes.
+srtp_rx(): 273/500 pkts, 1280 bytes (good), v1=273 (good), v2=273 (good).
+RTO: -162
+srtp_tx(): 273/500 pkts, 1280/1280 bytes.
+srtp_rx(): 274/500 pkts, 1280 bytes (good), v1=274 (good), v2=274 (good).
+RTO: -187
+srtp_tx(): 274/500 pkts, 1280/1280 bytes.
+srtp_rx(): 275/500 pkts, 1280 bytes (good), v1=275 (good), v2=275 (good).
+RTO: -196
+srtp_tx(): 275/500 pkts, 1280/1280 bytes.
+srtp_rx(): 276/500 pkts, 1280 bytes (good), v1=276 (good), v2=276 (good).
+RTO: -199
+srtp_tx(): 276/500 pkts, 1280/1280 bytes.
+srtp_rx(): 277/500 pkts, 1280 bytes (good), v1=277 (good), v2=277 (good).
+RTO: -226
+srtp_tx(): 277/500 pkts, 1280/1280 bytes.
+srtp_rx(): 278/500 pkts, 1280 bytes (good), v1=278 (good), v2=278 (good).
+RTO: -247
+srtp_tx(): 278/500 pkts, 1280/1280 bytes.
+srtp_rx(): 279/500 pkts, 1280 bytes (good), v1=279 (good), v2=279 (good).
+RTO: -266
+srtp_tx(): 279/500 pkts, 1280/1280 bytes.
+srtp_rx(): 280/500 pkts, 1280 bytes (good), v1=280 (good), v2=280 (good).
+RTO: -215
+srtp_tx(): 280/500 pkts, 1280/1280 bytes.
+srtp_rx(): 281/500 pkts, 1280 bytes (good), v1=281 (good), v2=281 (good).
+RTO: -226
+srtp_tx(): 281/500 pkts, 1280/1280 bytes.
+srtp_rx(): 282/500 pkts, 1280 bytes (good), v1=282 (good), v2=282 (good).
+RTO: -190
+srtp_tx(): 282/500 pkts, 1280/1280 bytes.
+srtp_rx(): 283/500 pkts, 1280 bytes (good), v1=283 (good), v2=283 (good).
+RTO: -157
+srtp_tx(): 283/500 pkts, 1280/1280 bytes.
+srtp_rx(): 284/500 pkts, 1280 bytes (good), v1=284 (good), v2=284 (good).
+RTO: -124
+srtp_tx(): 284/500 pkts, 1280/1280 bytes.
+srtp_rx(): 285/500 pkts, 1280 bytes (good), v1=285 (good), v2=285 (good).
+RTO: -162
+srtp_tx(): 285/500 pkts, 1280/1280 bytes.
+srtp_rx(): 286/500 pkts, 1280 bytes (good), v1=286 (good), v2=286 (good).
+RTO: -197
+srtp_tx(): 286/500 pkts, 1280/1280 bytes.
+srtp_rx(): 287/500 pkts, 1280 bytes (good), v1=287 (good), v2=287 (good).
+RTO: -189
+srtp_tx(): 287/500 pkts, 1280/1280 bytes.
+srtp_rx(): 288/500 pkts, 1280 bytes (good), v1=288 (good), v2=288 (good).
+RTO: -118
+srtp_tx(): 288/500 pkts, 1280/1280 bytes.
+srtp_rx(): 289/500 pkts, 1280 bytes (good), v1=289 (good), v2=289 (good).
+RTO: -139
+srtp_tx(): 289/500 pkts, 1280/1280 bytes.
+srtp_rx(): 290/500 pkts, 1280 bytes (good), v1=290 (good), v2=290 (good).
+RTO: -130
+srtp_tx(): 290/500 pkts, 1280/1280 bytes.
+srtp_rx(): 291/500 pkts, 1280 bytes (good), v1=291 (good), v2=291 (good).
+RTO: -157
+srtp_tx(): 291/500 pkts, 1280/1280 bytes.
+srtp_rx(): 292/500 pkts, 1280 bytes (good), v1=292 (good), v2=292 (good).
+RTO: -118
+srtp_tx(): 292/500 pkts, 1280/1280 bytes.
+srtp_rx(): 293/500 pkts, 1280 bytes (good), v1=293 (good), v2=293 (good).
+RTO: -120
+srtp_tx(): 293/500 pkts, 1280/1280 bytes.
+srtp_rx(): 294/500 pkts, 1280 bytes (good), v1=294 (good), v2=294 (good).
+RTO: -152
+srtp_tx(): 294/500 pkts, 1280/1280 bytes.
+srtp_rx(): 295/500 pkts, 1280 bytes (good), v1=295 (good), v2=295 (good).
+RTO: -164
+srtp_tx(): 295/500 pkts, 1280/1280 bytes.
+srtp_rx(): 296/500 pkts, 1280 bytes (good), v1=296 (good), v2=296 (good).
+RTO: -132
+srtp_tx(): 296/500 pkts, 1280/1280 bytes.
+srtp_rx(): 297/500 pkts, 1280 bytes (good), v1=297 (good), v2=297 (good).
+RTO: -147
+srtp_tx(): 297/500 pkts, 1280/1280 bytes.
+srtp_rx(): 298/500 pkts, 1280 bytes (good), v1=298 (good), v2=298 (good).
+RTO: -167
+srtp_tx(): 298/500 pkts, 1280/1280 bytes.
+srtp_rx(): 299/500 pkts, 1280 bytes (good), v1=299 (good), v2=299 (good).
+RTO: -175
+srtp_tx(): 299/500 pkts, 1280/1280 bytes.
+srtp_rx(): 300/500 pkts, 1280 bytes (good), v1=300 (good), v2=300 (good).
+RTO: -170
+srtp_tx(): 300/500 pkts, 1280/1280 bytes.
+srtp_rx(): 301/500 pkts, 1280 bytes (good), v1=301 (good), v2=301 (good).
+RTO: -158
+srtp_tx(): 301/500 pkts, 1280/1280 bytes.
+srtp_rx(): 302/500 pkts, 1280 bytes (good), v1=302 (good), v2=302 (good).
+RTO: -143
+srtp_tx(): 302/500 pkts, 1280/1280 bytes.
+srtp_rx(): 303/500 pkts, 1280 bytes (good), v1=303 (good), v2=303 (good).
+RTO: -124
+srtp_tx(): 303/500 pkts, 1280/1280 bytes.
+srtp_rx(): 304/500 pkts, 1280 bytes (good), v1=304 (good), v2=304 (good).
+RTO: -156
+srtp_tx(): 304/500 pkts, 1280/1280 bytes.
+srtp_rx(): 305/500 pkts, 1280 bytes (good), v1=305 (good), v2=305 (good).
+RTO: -155
+srtp_tx(): 305/500 pkts, 1280/1280 bytes.
+srtp_rx(): 306/500 pkts, 1280 bytes (good), v1=306 (good), v2=306 (good).
+RTO: -130
+srtp_tx(): 306/500 pkts, 1280/1280 bytes.
+srtp_rx(): 307/500 pkts, 1280 bytes (good), v1=307 (good), v2=307 (good).
+RTO: -118
+srtp_tx(): 307/500 pkts, 1280/1280 bytes.
+srtp_rx(): 308/500 pkts, 1280 bytes (good), v1=308 (good), v2=308 (good).
+RTO: -123
+srtp_tx(): 308/500 pkts, 1280/1280 bytes.
+srtp_rx(): 309/500 pkts, 1280 bytes (good), v1=309 (good), v2=309 (good).
+RTO: -151
+srtp_tx(): 309/500 pkts, 1280/1280 bytes.
+srtp_rx(): 310/500 pkts, 1280 bytes (good), v1=310 (good), v2=310 (good).
+RTO: -148
+srtp_tx(): 310/500 pkts, 1280/1280 bytes.
+srtp_rx(): 311/500 pkts, 1280 bytes (good), v1=311 (good), v2=311 (good).
+RTO: -158
+srtp_tx(): 311/500 pkts, 1280/1280 bytes.
+srtp_rx(): 312/500 pkts, 1280 bytes (good), v1=312 (good), v2=312 (good).
+RTO: -171
+srtp_tx(): 312/500 pkts, 1280/1280 bytes.
+srtp_rx(): 313/500 pkts, 1280 bytes (good), v1=313 (good), v2=313 (good).
+RTO: -188
+srtp_tx(): 313/500 pkts, 1280/1280 bytes.
+srtp_rx(): 314/500 pkts, 1280 bytes (good), v1=314 (good), v2=314 (good).
+RTO: -210
+srtp_tx(): 314/500 pkts, 1280/1280 bytes.
+srtp_rx(): 315/500 pkts, 1280 bytes (good), v1=315 (good), v2=315 (good).
+RTO: -208
+srtp_tx(): 315/500 pkts, 1280/1280 bytes.
+srtp_rx(): 316/500 pkts, 1280 bytes (good), v1=316 (good), v2=316 (good).
+RTO: -220
+srtp_tx(): 316/500 pkts, 1280/1280 bytes.
+srtp_rx(): 317/500 pkts, 1280 bytes (good), v1=317 (good), v2=317 (good).
+RTO: -234
+srtp_tx(): 317/500 pkts, 1280/1280 bytes.
+srtp_rx(): 318/500 pkts, 1280 bytes (good), v1=318 (good), v2=318 (good).
+RTO: -237
+srtp_tx(): 318/500 pkts, 1280/1280 bytes.
+srtp_rx(): 319/500 pkts, 1280 bytes (good), v1=319 (good), v2=319 (good).
+RTO: -222
+srtp_tx(): 319/500 pkts, 1280/1280 bytes.
+srtp_rx(): 320/500 pkts, 1280 bytes (good), v1=320 (good), v2=320 (good).
+RTO: -242
+srtp_tx(): 320/500 pkts, 1280/1280 bytes.
+srtp_rx(): 321/500 pkts, 1280 bytes (good), v1=321 (good), v2=321 (good).
+RTO: -247
+srtp_tx(): 321/500 pkts, 1280/1280 bytes.
+srtp_rx(): 322/500 pkts, 1280 bytes (good), v1=322 (good), v2=322 (good).
+RTO: -262
+srtp_tx(): 322/500 pkts, 1280/1280 bytes.
+srtp_rx(): 323/500 pkts, 1280 bytes (good), v1=323 (good), v2=323 (good).
+RTO: -263
+srtp_tx(): 323/500 pkts, 1280/1280 bytes.
+srtp_rx(): 324/500 pkts, 1280 bytes (good), v1=324 (good), v2=324 (good).
+RTO: -215
+srtp_tx(): 324/500 pkts, 1280/1280 bytes.
+srtp_rx(): 325/500 pkts, 1280 bytes (good), v1=325 (good), v2=325 (good).
+RTO: -212
+srtp_tx(): 325/500 pkts, 1280/1280 bytes.
+srtp_rx(): 326/500 pkts, 1280 bytes (good), v1=326 (good), v2=326 (good).
+RTO: -204
+srtp_tx(): 326/500 pkts, 1280/1280 bytes.
+srtp_rx(): 327/500 pkts, 1280 bytes (good), v1=327 (good), v2=327 (good).
+RTO: -199
+srtp_tx(): 327/500 pkts, 1280/1280 bytes.
+srtp_rx(): 328/500 pkts, 1280 bytes (good), v1=328 (good), v2=328 (good).
+RTO: -204
+srtp_tx(): 328/500 pkts, 1280/1280 bytes.
+srtp_rx(): 329/500 pkts, 1280 bytes (good), v1=329 (good), v2=329 (good).
+RTO: -201
+srtp_tx(): 329/500 pkts, 1280/1280 bytes.
+srtp_rx(): 330/500 pkts, 1280 bytes (good), v1=330 (good), v2=330 (good).
+RTO: -195
+srtp_tx(): 330/500 pkts, 1280/1280 bytes.
+srtp_rx(): 331/500 pkts, 1280 bytes (good), v1=331 (good), v2=331 (good).
+RTO: -199
+srtp_tx(): 331/500 pkts, 1280/1280 bytes.
+srtp_rx(): 332/500 pkts, 1280 bytes (good), v1=332 (good), v2=332 (good).
+RTO: -210
+srtp_tx(): 332/500 pkts, 1280/1280 bytes.
+srtp_rx(): 333/500 pkts, 1280 bytes (good), v1=333 (good), v2=333 (good).
+RTO: -207
+srtp_tx(): 333/500 pkts, 1280/1280 bytes.
+srtp_rx(): 334/500 pkts, 1280 bytes (good), v1=334 (good), v2=334 (good).
+RTO: -212
+srtp_tx(): 334/500 pkts, 1280/1280 bytes.
+srtp_rx(): 335/500 pkts, 1280 bytes (good), v1=335 (good), v2=335 (good).
+RTO: -236
+srtp_tx(): 335/500 pkts, 1280/1280 bytes.
+srtp_rx(): 336/500 pkts, 1280 bytes (good), v1=336 (good), v2=336 (good).
+RTO: -218
+srtp_tx(): 336/500 pkts, 1280/1280 bytes.
+srtp_rx(): 337/500 pkts, 1280 bytes (good), v1=337 (good), v2=337 (good).
+RTO: -224
+srtp_tx(): 337/500 pkts, 1280/1280 bytes.
+srtp_rx(): 338/500 pkts, 1280 bytes (good), v1=338 (good), v2=338 (good).
+RTO: -243
+srtp_tx(): 338/500 pkts, 1280/1280 bytes.
+srtp_rx(): 339/500 pkts, 1280 bytes (good), v1=339 (good), v2=339 (good).
+RTO: -224
+srtp_tx(): 339/500 pkts, 1280/1280 bytes.
+srtp_rx(): 340/500 pkts, 1280 bytes (good), v1=340 (good), v2=340 (good).
+RTO: -186
+srtp_tx(): 340/500 pkts, 1280/1280 bytes.
+srtp_rx(): 341/500 pkts, 1280 bytes (good), v1=341 (good), v2=341 (good).
+RTO: -214
+srtp_tx(): 341/500 pkts, 1280/1280 bytes.
+srtp_rx(): 342/500 pkts, 1280 bytes (good), v1=342 (good), v2=342 (good).
+RTO: -207
+srtp_tx(): 342/500 pkts, 1280/1280 bytes.
+srtp_rx(): 343/500 pkts, 1280 bytes (good), v1=343 (good), v2=343 (good).
+RTO: -213
+srtp_tx(): 343/500 pkts, 1280/1280 bytes.
+srtp_rx(): 344/500 pkts, 1280 bytes (good), v1=344 (good), v2=344 (good).
+RTO: -212
+srtp_tx(): 344/500 pkts, 1280/1280 bytes.
+srtp_rx(): 345/500 pkts, 1280 bytes (good), v1=345 (good), v2=345 (good).
+RTO: -226
+srtp_tx(): 345/500 pkts, 1280/1280 bytes.
+srtp_rx(): 346/500 pkts, 1280 bytes (good), v1=346 (good), v2=346 (good).
+RTO: -242
+srtp_tx(): 346/500 pkts, 1280/1280 bytes.
+srtp_rx(): 347/500 pkts, 1280 bytes (good), v1=347 (good), v2=347 (good).
+RTO: -249
+srtp_tx(): 347/500 pkts, 1280/1280 bytes.
+srtp_rx(): 348/500 pkts, 1280 bytes (good), v1=348 (good), v2=348 (good).
+RTO: -212
+srtp_tx(): 348/500 pkts, 1280/1280 bytes.
+srtp_rx(): 349/500 pkts, 1280 bytes (good), v1=349 (good), v2=349 (good).
+RTO: -242
+srtp_tx(): 349/500 pkts, 1280/1280 bytes.
+srtp_rx(): 350/500 pkts, 1280 bytes (good), v1=350 (good), v2=350 (good).
+RTO: -231
+srtp_tx(): 350/500 pkts, 1280/1280 bytes.
+srtp_rx(): 351/500 pkts, 1280 bytes (good), v1=351 (good), v2=351 (good).
+RTO: -236
+srtp_tx(): 351/500 pkts, 1280/1280 bytes.
+srtp_rx(): 352/500 pkts, 1280 bytes (good), v1=352 (good), v2=352 (good).
+RTO: -253
+srtp_tx(): 352/500 pkts, 1280/1280 bytes.
+srtp_rx(): 353/500 pkts, 1280 bytes (good), v1=353 (good), v2=353 (good).
+RTO: -259
+srtp_tx(): 353/500 pkts, 1280/1280 bytes.
+srtp_rx(): 354/500 pkts, 1280 bytes (good), v1=354 (good), v2=354 (good).
+RTO: -267
+srtp_tx(): 354/500 pkts, 1280/1280 bytes.
+srtp_rx(): 355/500 pkts, 1280 bytes (good), v1=355 (good), v2=355 (good).
+RTO: -248
+srtp_tx(): 355/500 pkts, 1280/1280 bytes.
+srtp_rx(): 356/500 pkts, 1280 bytes (good), v1=356 (good), v2=356 (good).
+RTO: -228
+srtp_tx(): 356/500 pkts, 1280/1280 bytes.
+srtp_rx(): 357/500 pkts, 1280 bytes (good), v1=357 (good), v2=357 (good).
+RTO: -206
+srtp_tx(): 357/500 pkts, 1280/1280 bytes.
+srtp_rx(): 358/500 pkts, 1280 bytes (good), v1=358 (good), v2=358 (good).
+RTO: -217
+srtp_tx(): 358/500 pkts, 1280/1280 bytes.
+srtp_rx(): 359/500 pkts, 1280 bytes (good), v1=359 (good), v2=359 (good).
+RTO: -244
+srtp_tx(): 359/500 pkts, 1280/1280 bytes.
+srtp_rx(): 360/500 pkts, 1280 bytes (good), v1=360 (good), v2=360 (good).
+RTO: -249
+srtp_tx(): 360/500 pkts, 1280/1280 bytes.
+srtp_rx(): 361/500 pkts, 1280 bytes (good), v1=361 (good), v2=361 (good).
+RTO: -240
+srtp_tx(): 361/500 pkts, 1280/1280 bytes.
+srtp_rx(): 362/500 pkts, 1280 bytes (good), v1=362 (good), v2=362 (good).
+RTO: -175
+srtp_tx(): 362/500 pkts, 1280/1280 bytes.
+srtp_rx(): 363/500 pkts, 1280 bytes (good), v1=363 (good), v2=363 (good).
+RTO: -172
+srtp_tx(): 363/500 pkts, 1280/1280 bytes.
+srtp_rx(): 364/500 pkts, 1280 bytes (good), v1=364 (good), v2=364 (good).
+RTO: -196
+srtp_tx(): 364/500 pkts, 1280/1280 bytes.
+srtp_rx(): 365/500 pkts, 1280 bytes (good), v1=365 (good), v2=365 (good).
+RTO: -195
+srtp_tx(): 365/500 pkts, 1280/1280 bytes.
+srtp_rx(): 366/500 pkts, 1280 bytes (good), v1=366 (good), v2=366 (good).
+RTO: -183
+srtp_tx(): 366/500 pkts, 1280/1280 bytes.
+srtp_rx(): 367/500 pkts, 1280 bytes (good), v1=367 (good), v2=367 (good).
+RTO: -211
+srtp_tx(): 367/500 pkts, 1280/1280 bytes.
+srtp_rx(): 368/500 pkts, 1280 bytes (good), v1=368 (good), v2=368 (good).
+RTO: -214
+srtp_tx(): 368/500 pkts, 1280/1280 bytes.
+srtp_rx(): 369/500 pkts, 1280 bytes (good), v1=369 (good), v2=369 (good).
+RTO: -232
+srtp_tx(): 369/500 pkts, 1280/1280 bytes.
+srtp_rx(): 370/500 pkts, 1280 bytes (good), v1=370 (good), v2=370 (good).
+RTO: -211
+srtp_tx(): 370/500 pkts, 1280/1280 bytes.
+srtp_rx(): 371/500 pkts, 1280 bytes (good), v1=371 (good), v2=371 (good).
+RTO: -228
+srtp_tx(): 371/500 pkts, 1280/1280 bytes.
+srtp_rx(): 372/500 pkts, 1280 bytes (good), v1=372 (good), v2=372 (good).
+RTO: -197
+srtp_tx(): 372/500 pkts, 1280/1280 bytes.
+srtp_rx(): 373/500 pkts, 1280 bytes (good), v1=373 (good), v2=373 (good).
+RTO: -180
+srtp_tx(): 373/500 pkts, 1280/1280 bytes.
+srtp_rx(): 374/500 pkts, 1280 bytes (good), v1=374 (good), v2=374 (good).
+RTO: -132
+srtp_tx(): 374/500 pkts, 1280/1280 bytes.
+srtp_rx(): 375/500 pkts, 1280 bytes (good), v1=375 (good), v2=375 (good).
+RTO: -123
+srtp_tx(): 375/500 pkts, 1280/1280 bytes.
+srtp_rx(): 376/500 pkts, 1280 bytes (good), v1=376 (good), v2=376 (good).
+RTO: -109
+srtp_tx(): 376/500 pkts, 1280/1280 bytes.
+srtp_rx(): 377/500 pkts, 1280 bytes (good), v1=377 (good), v2=377 (good).
+RTO: -111
+srtp_tx(): 377/500 pkts, 1280/1280 bytes.
+srtp_rx(): 378/500 pkts, 1280 bytes (good), v1=378 (good), v2=378 (good).
+RTO: -117
+srtp_tx(): 378/500 pkts, 1280/1280 bytes.
+srtp_rx(): 379/500 pkts, 1280 bytes (good), v1=379 (good), v2=379 (good).
+RTO: -74
+srtp_tx(): 379/500 pkts, 1280/1280 bytes.
+srtp_rx(): 380/500 pkts, 1280 bytes (good), v1=380 (good), v2=380 (good).
+RTO: -57
+srtp_tx(): 380/500 pkts, 1280/1280 bytes.
+srtp_rx(): 381/500 pkts, 1280 bytes (good), v1=381 (good), v2=381 (good).
+RTO: -66
+srtp_tx(): 381/500 pkts, 1280/1280 bytes.
+srtp_rx(): 382/500 pkts, 1280 bytes (good), v1=382 (good), v2=382 (good).
+RTO: -69
+srtp_tx(): 382/500 pkts, 1280/1280 bytes.
+srtp_rx(): 383/500 pkts, 1280 bytes (good), v1=383 (good), v2=383 (good).
+RTO: -104
+srtp_tx(): 383/500 pkts, 1280/1280 bytes.
+srtp_rx(): 384/500 pkts, 1280 bytes (good), v1=384 (good), v2=384 (good).
+RTO: -126
+srtp_tx(): 384/500 pkts, 1280/1280 bytes.
+srtp_rx(): 385/500 pkts, 1280 bytes (good), v1=385 (good), v2=385 (good).
+RTO: -159
+srtp_tx(): 385/500 pkts, 1280/1280 bytes.
+srtp_rx(): 386/500 pkts, 1280 bytes (good), v1=386 (good), v2=386 (good).
+RTO: -143
+srtp_tx(): 386/500 pkts, 1280/1280 bytes.
+srtp_rx(): 387/500 pkts, 1280 bytes (good), v1=387 (good), v2=387 (good).
+RTO: -184
+srtp_tx(): 387/500 pkts, 1280/1280 bytes.
+srtp_rx(): 388/500 pkts, 1280 bytes (good), v1=388 (good), v2=388 (good).
+RTO: -183
+srtp_tx(): 388/500 pkts, 1280/1280 bytes.
+srtp_rx(): 389/500 pkts, 1280 bytes (good), v1=389 (good), v2=389 (good).
+RTO: -143
+srtp_tx(): 389/500 pkts, 1280/1280 bytes.
+srtp_rx(): 390/500 pkts, 1280 bytes (good), v1=390 (good), v2=390 (good).
+RTO: -168
+srtp_tx(): 390/500 pkts, 1280/1280 bytes.
+srtp_rx(): 391/500 pkts, 1280 bytes (good), v1=391 (good), v2=391 (good).
+RTO: -170
+srtp_tx(): 391/500 pkts, 1280/1280 bytes.
+srtp_rx(): 392/500 pkts, 1280 bytes (good), v1=392 (good), v2=392 (good).
+RTO: -192
+srtp_tx(): 392/500 pkts, 1280/1280 bytes.
+srtp_rx(): 393/500 pkts, 1280 bytes (good), v1=393 (good), v2=393 (good).
+RTO: -194
+srtp_tx(): 393/500 pkts, 1280/1280 bytes.
+srtp_rx(): 394/500 pkts, 1280 bytes (good), v1=394 (good), v2=394 (good).
+RTO: -219
+srtp_tx(): 394/500 pkts, 1280/1280 bytes.
+srtp_rx(): 395/500 pkts, 1280 bytes (good), v1=395 (good), v2=395 (good).
+RTO: -240
+srtp_tx(): 395/500 pkts, 1280/1280 bytes.
+srtp_rx(): 396/500 pkts, 1280 bytes (good), v1=396 (good), v2=396 (good).
+RTO: -246
+srtp_tx(): 396/500 pkts, 1280/1280 bytes.
+srtp_rx(): 397/500 pkts, 1280 bytes (good), v1=397 (good), v2=397 (good).
+RTO: -220
+srtp_tx(): 397/500 pkts, 1280/1280 bytes.
+srtp_rx(): 398/500 pkts, 1280 bytes (good), v1=398 (good), v2=398 (good).
+RTO: -219
+srtp_tx(): 398/500 pkts, 1280/1280 bytes.
+srtp_rx(): 399/500 pkts, 1280 bytes (good), v1=399 (good), v2=399 (good).
+RTO: -187
+srtp_tx(): 399/500 pkts, 1280/1280 bytes.
+srtp_rx(): 400/500 pkts, 1280 bytes (good), v1=400 (good), v2=400 (good).
+RTO: -155
+srtp_tx(): 400/500 pkts, 1280/1280 bytes.
+srtp_rx(): 401/500 pkts, 1280 bytes (good), v1=401 (good), v2=401 (good).
+RTO: -134
+srtp_tx(): 401/500 pkts, 1280/1280 bytes.
+srtp_rx(): 402/500 pkts, 1280 bytes (good), v1=402 (good), v2=402 (good).
+RTO: -169
+srtp_tx(): 402/500 pkts, 1280/1280 bytes.
+srtp_rx(): 403/500 pkts, 1280 bytes (good), v1=403 (good), v2=403 (good).
+RTO: -143
+srtp_tx(): 403/500 pkts, 1280/1280 bytes.
+srtp_rx(): 404/500 pkts, 1280 bytes (good), v1=404 (good), v2=404 (good).
+RTO: -162
+srtp_tx(): 404/500 pkts, 1280/1280 bytes.
+srtp_rx(): 405/500 pkts, 1280 bytes (good), v1=405 (good), v2=405 (good).
+RTO: -180
+srtp_tx(): 405/500 pkts, 1280/1280 bytes.
+srtp_rx(): 406/500 pkts, 1280 bytes (good), v1=406 (good), v2=406 (good).
+RTO: -204
+srtp_tx(): 406/500 pkts, 1280/1280 bytes.
+srtp_rx(): 407/500 pkts, 1280 bytes (good), v1=407 (good), v2=407 (good).
+RTO: -210
+srtp_tx(): 407/500 pkts, 1280/1280 bytes.
+srtp_rx(): 408/500 pkts, 1280 bytes (good), v1=408 (good), v2=408 (good).
+RTO: -214
+srtp_tx(): 408/500 pkts, 1280/1280 bytes.
+srtp_rx(): 409/500 pkts, 1280 bytes (good), v1=409 (good), v2=409 (good).
+RTO: -188
+srtp_tx(): 409/500 pkts, 1280/1280 bytes.
+srtp_rx(): 410/500 pkts, 1280 bytes (good), v1=410 (good), v2=410 (good).
+RTO: -202
+srtp_tx(): 410/500 pkts, 1280/1280 bytes.
+srtp_rx(): 411/500 pkts, 1280 bytes (good), v1=411 (good), v2=411 (good).
+RTO: -152
+srtp_tx(): 411/500 pkts, 1280/1280 bytes.
+srtp_rx(): 412/500 pkts, 1280 bytes (good), v1=412 (good), v2=412 (good).
+RTO: -172
+srtp_tx(): 412/500 pkts, 1280/1280 bytes.
+srtp_rx(): 413/500 pkts, 1280 bytes (good), v1=413 (good), v2=413 (good).
+RTO: -165
+srtp_tx(): 413/500 pkts, 1280/1280 bytes.
+srtp_rx(): 414/500 pkts, 1280 bytes (good), v1=414 (good), v2=414 (good).
+RTO: -162
+srtp_tx(): 414/500 pkts, 1280/1280 bytes.
+srtp_rx(): 415/500 pkts, 1280 bytes (good), v1=415 (good), v2=415 (good).
+RTO: -147
+srtp_tx(): 415/500 pkts, 1280/1280 bytes.
+srtp_rx(): 416/500 pkts, 1280 bytes (good), v1=416 (good), v2=416 (good).
+RTO: -152
+srtp_tx(): 416/500 pkts, 1280/1280 bytes.
+srtp_rx(): 417/500 pkts, 1280 bytes (good), v1=417 (good), v2=417 (good).
+RTO: -157
+srtp_tx(): 417/500 pkts, 1280/1280 bytes.
+srtp_rx(): 418/500 pkts, 1280 bytes (good), v1=418 (good), v2=418 (good).
+RTO: -157
+srtp_tx(): 418/500 pkts, 1280/1280 bytes.
+srtp_rx(): 419/500 pkts, 1280 bytes (good), v1=419 (good), v2=419 (good).
+RTO: -174
+srtp_tx(): 419/500 pkts, 1280/1280 bytes.
+srtp_rx(): 420/500 pkts, 1280 bytes (good), v1=420 (good), v2=420 (good).
+RTO: -153
+srtp_tx(): 420/500 pkts, 1280/1280 bytes.
+srtp_rx(): 421/500 pkts, 1280 bytes (good), v1=421 (good), v2=421 (good).
+RTO: -136
+srtp_tx(): 421/500 pkts, 1280/1280 bytes.
+srtp_rx(): 422/500 pkts, 1280 bytes (good), v1=422 (good), v2=422 (good).
+RTO: -130
+srtp_tx(): 422/500 pkts, 1280/1280 bytes.
+srtp_rx(): 423/500 pkts, 1280 bytes (good), v1=423 (good), v2=423 (good).
+RTO: -115
+srtp_tx(): 423/500 pkts, 1280/1280 bytes.
+srtp_rx(): 424/500 pkts, 1280 bytes (good), v1=424 (good), v2=424 (good).
+RTO: -152
+srtp_tx(): 424/500 pkts, 1280/1280 bytes.
+srtp_rx(): 425/500 pkts, 1280 bytes (good), v1=425 (good), v2=425 (good).
+RTO: -184
+srtp_tx(): 425/500 pkts, 1280/1280 bytes.
+srtp_rx(): 426/500 pkts, 1280 bytes (good), v1=426 (good), v2=426 (good).
+RTO: -149
+srtp_tx(): 426/500 pkts, 1280/1280 bytes.
+srtp_rx(): 427/500 pkts, 1280 bytes (good), v1=427 (good), v2=427 (good).
+RTO: -177
+srtp_tx(): 427/500 pkts, 1280/1280 bytes.
+srtp_rx(): 428/500 pkts, 1280 bytes (good), v1=428 (good), v2=428 (good).
+RTO: -178
+srtp_tx(): 428/500 pkts, 1280/1280 bytes.
+srtp_rx(): 429/500 pkts, 1280 bytes (good), v1=429 (good), v2=429 (good).
+RTO: -182
+srtp_tx(): 429/500 pkts, 1280/1280 bytes.
+srtp_rx(): 430/500 pkts, 1280 bytes (good), v1=430 (good), v2=430 (good).
+RTO: -120
+srtp_tx(): 430/500 pkts, 1280/1280 bytes.
+srtp_rx(): 431/500 pkts, 1280 bytes (good), v1=431 (good), v2=431 (good).
+RTO: -131
+srtp_tx(): 431/500 pkts, 1280/1280 bytes.
+srtp_rx(): 432/500 pkts, 1280 bytes (good), v1=432 (good), v2=432 (good).
+RTO: -162
+srtp_tx(): 432/500 pkts, 1280/1280 bytes.
+srtp_rx(): 433/500 pkts, 1280 bytes (good), v1=433 (good), v2=433 (good).
+RTO: -184
+srtp_tx(): 433/500 pkts, 1280/1280 bytes.
+srtp_rx(): 434/500 pkts, 1280 bytes (good), v1=434 (good), v2=434 (good).
+RTO: -141
+srtp_tx(): 434/500 pkts, 1280/1280 bytes.
+srtp_rx(): 435/500 pkts, 1280 bytes (good), v1=435 (good), v2=435 (good).
+RTO: -104
+srtp_tx(): 435/500 pkts, 1280/1280 bytes.
+srtp_rx(): 436/500 pkts, 1280 bytes (good), v1=436 (good), v2=436 (good).
+RTO: -130
+srtp_tx(): 436/500 pkts, 1280/1280 bytes.
+srtp_rx(): 437/500 pkts, 1280 bytes (good), v1=437 (good), v2=437 (good).
+RTO: -149
+srtp_tx(): 437/500 pkts, 1280/1280 bytes.
+srtp_rx(): 438/500 pkts, 1280 bytes (good), v1=438 (good), v2=438 (good).
+RTO: -117
+srtp_tx(): 438/500 pkts, 1280/1280 bytes.
+srtp_rx(): 439/500 pkts, 1280 bytes (good), v1=439 (good), v2=439 (good).
+RTO: -153
+srtp_tx(): 439/500 pkts, 1280/1280 bytes.
+srtp_rx(): 440/500 pkts, 1280 bytes (good), v1=440 (good), v2=440 (good).
+RTO: -98
+srtp_tx(): 440/500 pkts, 1280/1280 bytes.
+srtp_rx(): 441/500 pkts, 1280 bytes (good), v1=441 (good), v2=441 (good).
+RTO: -113
+srtp_tx(): 441/500 pkts, 1280/1280 bytes.
+srtp_rx(): 442/500 pkts, 1280 bytes (good), v1=442 (good), v2=442 (good).
+RTO: -139
+srtp_tx(): 442/500 pkts, 1280/1280 bytes.
+srtp_rx(): 443/500 pkts, 1280 bytes (good), v1=443 (good), v2=443 (good).
+RTO: -151
+srtp_tx(): 443/500 pkts, 1280/1280 bytes.
+srtp_rx(): 444/500 pkts, 1280 bytes (good), v1=444 (good), v2=444 (good).
+RTO: -145
+srtp_tx(): 444/500 pkts, 1280/1280 bytes.
+srtp_rx(): 445/500 pkts, 1280 bytes (good), v1=445 (good), v2=445 (good).
+RTO: -137
+srtp_tx(): 445/500 pkts, 1280/1280 bytes.
+srtp_rx(): 446/500 pkts, 1280 bytes (good), v1=446 (good), v2=446 (good).
+RTO: -162
+srtp_tx(): 446/500 pkts, 1280/1280 bytes.
+srtp_rx(): 447/500 pkts, 1280 bytes (good), v1=447 (good), v2=447 (good).
+RTO: -161
+srtp_tx(): 447/500 pkts, 1280/1280 bytes.
+srtp_rx(): 448/500 pkts, 1280 bytes (good), v1=448 (good), v2=448 (good).
+RTO: -185
+srtp_tx(): 448/500 pkts, 1280/1280 bytes.
+srtp_rx(): 449/500 pkts, 1280 bytes (good), v1=449 (good), v2=449 (good).
+RTO: -189
+srtp_tx(): 449/500 pkts, 1280/1280 bytes.
+srtp_rx(): 450/500 pkts, 1280 bytes (good), v1=450 (good), v2=450 (good).
+RTO: -175
+srtp_tx(): 450/500 pkts, 1280/1280 bytes.
+srtp_rx(): 451/500 pkts, 1280 bytes (good), v1=451 (good), v2=451 (good).
+RTO: -175
+srtp_tx(): 451/500 pkts, 1280/1280 bytes.
+srtp_rx(): 452/500 pkts, 1280 bytes (good), v1=452 (good), v2=452 (good).
+RTO: -172
+srtp_tx(): 452/500 pkts, 1280/1280 bytes.
+srtp_rx(): 453/500 pkts, 1280 bytes (good), v1=453 (good), v2=453 (good).
+RTO: -193
+srtp_tx(): 453/500 pkts, 1280/1280 bytes.
+srtp_rx(): 454/500 pkts, 1280 bytes (good), v1=454 (good), v2=454 (good).
+RTO: -180
+srtp_tx(): 454/500 pkts, 1280/1280 bytes.
+srtp_rx(): 455/500 pkts, 1280 bytes (good), v1=455 (good), v2=455 (good).
+RTO: -193
+srtp_tx(): 455/500 pkts, 1280/1280 bytes.
+srtp_rx(): 456/500 pkts, 1280 bytes (good), v1=456 (good), v2=456 (good).
+RTO: -156
+srtp_tx(): 456/500 pkts, 1280/1280 bytes.
+srtp_rx(): 457/500 pkts, 1280 bytes (good), v1=457 (good), v2=457 (good).
+RTO: -85
+srtp_tx(): 457/500 pkts, 1280/1280 bytes.
+srtp_rx(): 458/500 pkts, 1280 bytes (good), v1=458 (good), v2=458 (good).
+RTO: -31
+srtp_tx(): 458/500 pkts, 1280/1280 bytes.
+srtp_rx(): 459/500 pkts, 1280 bytes (good), v1=459 (good), v2=459 (good).
+RTO: -46
+srtp_tx(): 459/500 pkts, 1280/1280 bytes.
+srtp_rx(): 460/500 pkts, 1280 bytes (good), v1=460 (good), v2=460 (good).
+RTO: -83
+srtp_tx(): 460/500 pkts, 1280/1280 bytes.
+srtp_rx(): 461/500 pkts, 1280 bytes (good), v1=461 (good), v2=461 (good).
+RTO: -54
+srtp_tx(): 461/500 pkts, 1280/1280 bytes.
+srtp_rx(): 462/500 pkts, 1280 bytes (good), v1=462 (good), v2=462 (good).
+RTO: -83
+srtp_tx(): 462/500 pkts, 1280/1280 bytes.
+srtp_rx(): 463/500 pkts, 1280 bytes (good), v1=463 (good), v2=463 (good).
+RTO: -83
+srtp_tx(): 463/500 pkts, 1280/1280 bytes.
+srtp_rx(): 464/500 pkts, 1280 bytes (good), v1=464 (good), v2=464 (good).
+RTO: -61
+srtp_tx(): 464/500 pkts, 1280/1280 bytes.
+srtp_rx(): 465/500 pkts, 1280 bytes (good), v1=465 (good), v2=465 (good).
+RTO: -100
+srtp_tx(): 465/500 pkts, 1280/1280 bytes.
+srtp_rx(): 466/500 pkts, 1280 bytes (good), v1=466 (good), v2=466 (good).
+RTO: -72
+srtp_tx(): 466/500 pkts, 1280/1280 bytes.
+srtp_rx(): 467/500 pkts, 1280 bytes (good), v1=467 (good), v2=467 (good).
+RTO: -107
+srtp_tx(): 467/500 pkts, 1280/1280 bytes.
+srtp_rx(): 468/500 pkts, 1280 bytes (good), v1=468 (good), v2=468 (good).
+RTO: -86
+srtp_tx(): 468/500 pkts, 1280/1280 bytes.
+srtp_rx(): 469/500 pkts, 1280 bytes (good), v1=469 (good), v2=469 (good).
+RTO: -95
+srtp_tx(): 469/500 pkts, 1280/1280 bytes.
+srtp_rx(): 470/500 pkts, 1280 bytes (good), v1=470 (good), v2=470 (good).
+RTO: -106
+srtp_tx(): 470/500 pkts, 1280/1280 bytes.
+srtp_rx(): 471/500 pkts, 1280 bytes (good), v1=471 (good), v2=471 (good).
+RTO: -128
+srtp_tx(): 471/500 pkts, 1280/1280 bytes.
+srtp_rx(): 472/500 pkts, 1280 bytes (good), v1=472 (good), v2=472 (good).
+RTO: -141
+srtp_tx(): 472/500 pkts, 1280/1280 bytes.
+srtp_rx(): 473/500 pkts, 1280 bytes (good), v1=473 (good), v2=473 (good).
+RTO: -112
+srtp_tx(): 473/500 pkts, 1280/1280 bytes.
+srtp_rx(): 474/500 pkts, 1280 bytes (good), v1=474 (good), v2=474 (good).
+RTO: -89
+srtp_tx(): 474/500 pkts, 1280/1280 bytes.
+srtp_rx(): 475/500 pkts, 1280 bytes (good), v1=475 (good), v2=475 (good).
+RTO: -115
+srtp_tx(): 475/500 pkts, 1280/1280 bytes.
+srtp_rx(): 476/500 pkts, 1280 bytes (good), v1=476 (good), v2=476 (good).
+RTO: -143
+srtp_tx(): 476/500 pkts, 1280/1280 bytes.
+srtp_rx(): 477/500 pkts, 1280 bytes (good), v1=477 (good), v2=477 (good).
+RTO: -153
+srtp_tx(): 477/500 pkts, 1280/1280 bytes.
+srtp_rx(): 478/500 pkts, 1280 bytes (good), v1=478 (good), v2=478 (good).
+RTO: -132
+srtp_tx(): 478/500 pkts, 1280/1280 bytes.
+srtp_rx(): 479/500 pkts, 1280 bytes (good), v1=479 (good), v2=479 (good).
+RTO: -137
+srtp_tx(): 479/500 pkts, 1280/1280 bytes.
+srtp_rx(): 480/500 pkts, 1280 bytes (good), v1=480 (good), v2=480 (good).
+RTO: -130
+srtp_tx(): 480/500 pkts, 1280/1280 bytes.
+srtp_rx(): 481/500 pkts, 1280 bytes (good), v1=481 (good), v2=481 (good).
+RTO: -100
+srtp_tx(): 481/500 pkts, 1280/1280 bytes.
+srtp_rx(): 482/500 pkts, 1280 bytes (good), v1=482 (good), v2=482 (good).
+RTO: -31
+srtp_tx(): 482/500 pkts, 1280/1280 bytes.
+srtp_rx(): 483/500 pkts, 1280 bytes (good), v1=483 (good), v2=483 (good).
+RTO: -43
+srtp_tx(): 483/500 pkts, 1280/1280 bytes.
+srtp_rx(): 484/500 pkts, 1280 bytes (good), v1=484 (good), v2=484 (good).
+RTO: -7
+srtp_tx(): 484/500 pkts, 1280/1280 bytes.
+srtp_rx(): 485/500 pkts, 1280 bytes (good), v1=485 (good), v2=485 (good).
+RTO: -21
+srtp_tx(): 485/500 pkts, 1280/1280 bytes.
+srtp_rx(): 486/500 pkts, 1280 bytes (good), v1=486 (good), v2=486 (good).
+RTO: -64
+srtp_tx(): 486/500 pkts, 1280/1280 bytes.
+srtp_rx(): 487/500 pkts, 1280 bytes (good), v1=487 (good), v2=487 (good).
+RTO: -76
+srtp_tx(): 487/500 pkts, 1280/1280 bytes.
+srtp_rx(): 488/500 pkts, 1280 bytes (good), v1=488 (good), v2=488 (good).
+RTO: -50
+srtp_tx(): 488/500 pkts, 1280/1280 bytes.
+srtp_rx(): 489/500 pkts, 1280 bytes (good), v1=489 (good), v2=489 (good).
+RTO: -88
+srtp_tx(): 489/500 pkts, 1280/1280 bytes.
+srtp_rx(): 490/500 pkts, 1280 bytes (good), v1=490 (good), v2=490 (good).
+RTO: -110
+srtp_tx(): 490/500 pkts, 1280/1280 bytes.
+srtp_rx(): 491/500 pkts, 1280 bytes (good), v1=491 (good), v2=491 (good).
+RTO: -101
+srtp_tx(): 491/500 pkts, 1280/1280 bytes.
+srtp_rx(): 492/500 pkts, 1280 bytes (good), v1=492 (good), v2=492 (good).
+RTO: -103
+srtp_tx(): 492/500 pkts, 1280/1280 bytes.
+srtp_rx(): 493/500 pkts, 1280 bytes (good), v1=493 (good), v2=493 (good).
+RTO: -119
+srtp_tx(): 493/500 pkts, 1280/1280 bytes.
+srtp_rx(): 494/500 pkts, 1280 bytes (good), v1=494 (good), v2=494 (good).
+RTO: -135
+srtp_tx(): 494/500 pkts, 1280/1280 bytes.
+srtp_rx(): 495/500 pkts, 1280 bytes (good), v1=495 (good), v2=495 (good).
+RTO: -130
+srtp_tx(): 495/500 pkts, 1280/1280 bytes.
+srtp_rx(): 496/500 pkts, 1280 bytes (good), v1=496 (good), v2=496 (good).
+RTO: -117
+srtp_tx(): 496/500 pkts, 1280/1280 bytes.
+srtp_rx(): 497/500 pkts, 1280 bytes (good), v1=497 (good), v2=497 (good).
+RTO: -110
+srtp_tx(): 497/500 pkts, 1280/1280 bytes.
+srtp_rx(): 498/500 pkts, 1280 bytes (good), v1=498 (good), v2=498 (good).
+RTO: -59
+srtp_tx(): 498/500 pkts, 1280/1280 bytes.
+srtp_rx(): 499/500 pkts, 1280 bytes (good), v1=499 (good), v2=499 (good).
+RTO: -67
+srtp_tx(): 499/500 pkts, 1280/1280 bytes.
+srtp_rx(): 500/500 pkts, 1280 bytes (good), v1=500 (good), v2=500 (good).
+RTO: -88
+srtp_tx(): 500/500 pkts, 1280/1280 bytes.
+ rx: 500/500 pkts from 138.251.29.13:23220, 0 fails.
+ tx: 500/500 pkts from 138.251.29.13:23220, 0 fails.
+start_time: 2024-03-26_19:49:50 (1711482590.430015s)
+(now): 2024-03-26_19:57:23 (1711483043.441388s)
+(duration): 453.011373s
+sd: 3
+port: 23220
+local: 0.0.0.0 0
+remote: 138.251.29.13 23220
+state: 0 (closed)
+seq_tx: 501
+seq_rx: 501
+rtt: 0 us
+rto: 500000 us
+open_req_rx: 0
+open_req_dup_rx: 0
+open_ack_rx: 1
+open_ack_dup_rx: 0
+open_req_tx: 1
+open_req_re_tx: 0
+open_ack_tx: 0
+open_ack_re_tx: 0
+data_req_rx: 500
+data_req_bytes_rx: 640000
+data_ack_rx: 500
+data_req_dup_rx: 0
+data_req_bytes_dup_rx: 0
+data_ack_dup_rx: 0
+data_req_tx: 500
+data_req_bytes_tx: 640000
+data_ack_tx: 0
+data_req_re_tx: 0
+data_req_bytes_re_tx: 0
+data_ack_re_tx: 0
+close_req_rx: 1
+close_req_dup_rx: 0
+close_ack_rx: 1
+close_ack_dup_rx: 0
+close_req_tx: 1
+close_req_re_tx: 0
+close_ack_tx: 1
+close_ack_re_tx: 0
+data mean rx_rate: 11.30 Kbps - 11302 bps
+data mean tx_rate: 11.30 Kbps - 11302 bps
+]0;lmc35@pc7-001-l:/cs/home/lmc35/Documents/CS3102/P2_NEW/api[?2004h[1mlmc35@pc7-001-l:.../Documents/CS3102/P2_NEW/api $[0m exit
+[?2004l]0;lmc35@pc7-001-l -> exitexit
+
+Script done on 2024-03-26 19:57:36+00:00 [COMMAND_EXIT_CODE="0"]
